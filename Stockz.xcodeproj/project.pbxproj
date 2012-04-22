@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E53D487F15448C860037A0BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53D487E15448C860037A0BD /* UIKit.framework */; };
+		E53D488115448C860037A0BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53D488015448C860037A0BD /* Foundation.framework */; };
+		E53D488315448C860037A0BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53D488215448C860037A0BD /* CoreGraphics.framework */; };
+		E53D488515448C860037A0BD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53D488415448C860037A0BD /* CoreData.framework */; };
+		E53D488B15448C860037A0BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E53D488915448C860037A0BD /* InfoPlist.strings */; };
+		E53D488D15448C860037A0BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D488C15448C860037A0BD /* main.m */; };
+		E53D489115448C860037A0BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D489015448C860037A0BD /* AppDelegate.m */; };
+		E53D489415448C860037A0BD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53D489215448C860037A0BD /* MainStoryboard.storyboard */; };
+		E53D489715448C860037A0BD /* Stockz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E53D489515448C860037A0BD /* Stockz.xcdatamodeld */; };
+		E53D489A15448C860037A0BD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D489915448C860037A0BD /* MainViewController.m */; };
+		E53D489D15448C860037A0BD /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D489C15448C860037A0BD /* FlipsideViewController.m */; };
+		E53D48A515448C860037A0BD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53D48A415448C860037A0BD /* SenTestingKit.framework */; };
+		E53D48A615448C860037A0BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53D487E15448C860037A0BD /* UIKit.framework */; };
+		E53D48A715448C860037A0BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53D488015448C860037A0BD /* Foundation.framework */; };
+		E53D48A815448C860037A0BD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53D488415448C860037A0BD /* CoreData.framework */; };
+		E53D48B015448C860037A0BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E53D48AE15448C860037A0BD /* InfoPlist.strings */; };
+		E53D48B315448C860037A0BD /* StockzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D48B215448C860037A0BD /* StockzTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E53D48A915448C860037A0BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E53D487115448C860037A0BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E53D487915448C860037A0BD;
+			remoteInfo = Stockz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E53D487A15448C860037A0BD /* Stockz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stockz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53D487E15448C860037A0BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E53D488015448C860037A0BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E53D488215448C860037A0BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E53D488415448C860037A0BD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E53D488815448C860037A0BD /* Stockz-Info.plist */ = {isa = PBXFileReference; path = "Stockz-Info.plist"; sourceTree = "<group>"; };
+		E53D488A15448C860037A0BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E53D488C15448C860037A0BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E53D488E15448C860037A0BD /* Stockz-Prefix.pch */ = {isa = PBXFileReference; path = "Stockz-Prefix.pch"; sourceTree = "<group>"; };
+		E53D488F15448C860037A0BD /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E53D489015448C860037A0BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E53D489315448C860037A0BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E53D489615448C860037A0BD /* Stockz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stockz.xcdatamodel; sourceTree = "<group>"; };
+		E53D489815448C860037A0BD /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		E53D489915448C860037A0BD /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		E53D489B15448C860037A0BD /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		E53D489C15448C860037A0BD /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		E53D48A315448C860037A0BD /* StockzTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockzTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53D48A415448C860037A0BD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E53D48AD15448C860037A0BD /* StockzTests-Info.plist */ = {isa = PBXFileReference; path = "StockzTests-Info.plist"; sourceTree = "<group>"; };
+		E53D48AF15448C860037A0BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E53D48B115448C860037A0BD /* StockzTests.h */ = {isa = PBXFileReference; path = StockzTests.h; sourceTree = "<group>"; };
+		E53D48B215448C860037A0BD /* StockzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockzTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E53D487715448C860037A0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53D487F15448C860037A0BD /* UIKit.framework in Frameworks */,
+				E53D488115448C860037A0BD /* Foundation.framework in Frameworks */,
+				E53D488315448C860037A0BD /* CoreGraphics.framework in Frameworks */,
+				E53D488515448C860037A0BD /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53D489F15448C860037A0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53D48A515448C860037A0BD /* SenTestingKit.framework in Frameworks */,
+				E53D48A615448C860037A0BD /* UIKit.framework in Frameworks */,
+				E53D48A715448C860037A0BD /* Foundation.framework in Frameworks */,
+				E53D48A815448C860037A0BD /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E53D486F15448C860037A0BD = {
+			isa = PBXGroup;
+			children = (
+				E53D488615448C860037A0BD /* Stockz */,
+				E53D48AB15448C860037A0BD /* StockzTests */,
+				E53D487D15448C860037A0BD /* Frameworks */,
+				E53D487B15448C860037A0BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E53D487B15448C860037A0BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E53D487A15448C860037A0BD /* Stockz.app */,
+				E53D48A315448C860037A0BD /* StockzTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E53D487D15448C860037A0BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E53D487E15448C860037A0BD /* UIKit.framework */,
+				E53D488015448C860037A0BD /* Foundation.framework */,
+				E53D488215448C860037A0BD /* CoreGraphics.framework */,
+				E53D488415448C860037A0BD /* CoreData.framework */,
+				E53D48A415448C860037A0BD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E53D488615448C860037A0BD /* Stockz */ = {
+			isa = PBXGroup;
+			children = (
+				E53D488F15448C860037A0BD /* AppDelegate.h */,
+				E53D489015448C860037A0BD /* AppDelegate.m */,
+				E53D489215448C860037A0BD /* MainStoryboard.storyboard */,
+				E53D489815448C860037A0BD /* MainViewController.h */,
+				E53D489915448C860037A0BD /* MainViewController.m */,
+				E53D489B15448C860037A0BD /* FlipsideViewController.h */,
+				E53D489C15448C860037A0BD /* FlipsideViewController.m */,
+				E53D489515448C860037A0BD /* Stockz.xcdatamodeld */,
+				E53D488715448C860037A0BD /* Supporting Files */,
+			);
+			path = Stockz;
+			sourceTree = "<group>";
+		};
+		E53D488715448C860037A0BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E53D488815448C860037A0BD /* Stockz-Info.plist */,
+				E53D488915448C860037A0BD /* InfoPlist.strings */,
+				E53D488C15448C860037A0BD /* main.m */,
+				E53D488E15448C860037A0BD /* Stockz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E53D48AB15448C860037A0BD /* StockzTests */ = {
+			isa = PBXGroup;
+			children = (
+				E53D48B115448C860037A0BD /* StockzTests.h */,
+				E53D48B215448C860037A0BD /* StockzTests.m */,
+				E53D48AC15448C860037A0BD /* Supporting Files */,
+			);
+			path = StockzTests;
+			sourceTree = "<group>";
+		};
+		E53D48AC15448C860037A0BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E53D48AD15448C860037A0BD /* StockzTests-Info.plist */,
+				E53D48AE15448C860037A0BD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E53D487915448C860037A0BD /* Stockz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E53D48B615448C860037A0BD /* Build configuration list for PBXNativeTarget "Stockz" */;
+			buildPhases = (
+				E53D487615448C860037A0BD /* Sources */,
+				E53D487715448C860037A0BD /* Frameworks */,
+				E53D487815448C860037A0BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stockz;
+			productName = Stockz;
+			productReference = E53D487A15448C860037A0BD /* Stockz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E53D48A215448C860037A0BD /* StockzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E53D48B915448C860037A0BD /* Build configuration list for PBXNativeTarget "StockzTests" */;
+			buildPhases = (
+				E53D489E15448C860037A0BD /* Sources */,
+				E53D489F15448C860037A0BD /* Frameworks */,
+				E53D48A015448C860037A0BD /* Resources */,
+				E53D48A115448C860037A0BD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E53D48AA15448C860037A0BD /* PBXTargetDependency */,
+			);
+			name = StockzTests;
+			productName = StockzTests;
+			productReference = E53D48A315448C860037A0BD /* StockzTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E53D487115448C860037A0BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "sgonyea inc";
+			};
+			buildConfigurationList = E53D487415448C860037A0BD /* Build configuration list for PBXProject "Stockz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E53D486F15448C860037A0BD;
+			productRefGroup = E53D487B15448C860037A0BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E53D487915448C860037A0BD /* Stockz */,
+				E53D48A215448C860037A0BD /* StockzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E53D487815448C860037A0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53D488B15448C860037A0BD /* InfoPlist.strings in Resources */,
+				E53D489415448C860037A0BD /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53D48A015448C860037A0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53D48B015448C860037A0BD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E53D48A115448C860037A0BD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E53D487615448C860037A0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53D488D15448C860037A0BD /* main.m in Sources */,
+				E53D489115448C860037A0BD /* AppDelegate.m in Sources */,
+				E53D489715448C860037A0BD /* Stockz.xcdatamodeld in Sources */,
+				E53D489A15448C860037A0BD /* MainViewController.m in Sources */,
+				E53D489D15448C860037A0BD /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53D489E15448C860037A0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53D48B315448C860037A0BD /* StockzTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E53D48AA15448C860037A0BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E53D487915448C860037A0BD /* Stockz */;
+			targetProxy = E53D48A915448C860037A0BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E53D488915448C860037A0BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E53D488A15448C860037A0BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E53D489215448C860037A0BD /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E53D489315448C860037A0BD /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		E53D48AE15448C860037A0BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E53D48AF15448C860037A0BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E53D48B415448C860037A0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E53D48B515448C860037A0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E53D48B715448C860037A0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stockz/Stockz-Prefix.pch";
+				INFOPLIST_FILE = "Stockz/Stockz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E53D48B815448C860037A0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stockz/Stockz-Prefix.pch";
+				INFOPLIST_FILE = "Stockz/Stockz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E53D48BA15448C860037A0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stockz.app/Stockz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stockz/Stockz-Prefix.pch";
+				INFOPLIST_FILE = "StockzTests/StockzTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E53D48BB15448C860037A0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stockz.app/Stockz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stockz/Stockz-Prefix.pch";
+				INFOPLIST_FILE = "StockzTests/StockzTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E53D487415448C860037A0BD /* Build configuration list for PBXProject "Stockz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E53D48B415448C860037A0BD /* Debug */,
+				E53D48B515448C860037A0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E53D48B615448C860037A0BD /* Build configuration list for PBXNativeTarget "Stockz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E53D48B715448C860037A0BD /* Debug */,
+				E53D48B815448C860037A0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E53D48B915448C860037A0BD /* Build configuration list for PBXNativeTarget "StockzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E53D48BA15448C860037A0BD /* Debug */,
+				E53D48BB15448C860037A0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E53D489515448C860037A0BD /* Stockz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E53D489615448C860037A0BD /* Stockz.xcdatamodel */,
+			);
+			currentVersion = E53D489615448C860037A0BD /* Stockz.xcdatamodel */;
+			path = Stockz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E53D487115448C860037A0BD /* Project object */;
+}
