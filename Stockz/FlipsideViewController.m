@@ -88,4 +88,8 @@
   [self.dataController moveRowAtIndexPath:fromIndex.row toIndexPath:toIndex.row];
 }
 
+- (BOOL)tableView:(UITableView *)tableView shouldIndentWhileEditingRowAtIndexPath:(NSIndexPath *)indexPath {
+  return NO;
+}
+
 @end
