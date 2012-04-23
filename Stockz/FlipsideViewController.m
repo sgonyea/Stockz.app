@@ -49,6 +49,8 @@
   [self.delegate flipsideViewControllerDidFinish:self];
 }
 
+#pragma mark - Table View
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
   return 1;
 }

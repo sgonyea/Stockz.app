@@ -33,18 +33,14 @@
   return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
-#pragma mark - Flipside View
-
-- (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller {
-  [self dismissModalViewControllerAnimated:YES];
-}
-
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
   if ([[segue identifier] isEqualToString:@"showAlternate"]) {
     [[segue destinationViewController] setDataController:self.dataController];
     [[segue destinationViewController] setDelegate:self];
   }
 }
+
+#pragma mark - Table View
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
   return 1;
@@ -70,5 +66,10 @@
   return NO;
 }
 
+#pragma mark - Flipside View
+
+- (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller {
+  [self dismissModalViewControllerAnimated:YES];
+}
 
 @end
