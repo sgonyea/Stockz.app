@@ -24,6 +24,8 @@
 		E53D48A815448C860037A0BD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53D488415448C860037A0BD /* CoreData.framework */; };
 		E53D48B015448C860037A0BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E53D48AE15448C860037A0BD /* InfoPlist.strings */; };
 		E53D48B315448C860037A0BD /* StockzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D48B215448C860037A0BD /* StockzTests.m */; };
+		E593EB8C1544D99800E6D236 /* StockSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = E593EB8B1544D99800E6D236 /* StockSymbol.m */; };
+		E593EB901544E97B00E6D236 /* StockSymbolDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = E593EB8F1544E97B00E6D236 /* StockSymbolDataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,24 +44,28 @@
 		E53D488015448C860037A0BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E53D488215448C860037A0BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E53D488415448C860037A0BD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		E53D488815448C860037A0BD /* Stockz-Info.plist */ = {isa = PBXFileReference; path = "Stockz-Info.plist"; sourceTree = "<group>"; };
+		E53D488815448C860037A0BD /* Stockz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stockz-Info.plist"; sourceTree = "<group>"; };
 		E53D488A15448C860037A0BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E53D488C15448C860037A0BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E53D488E15448C860037A0BD /* Stockz-Prefix.pch */ = {isa = PBXFileReference; path = "Stockz-Prefix.pch"; sourceTree = "<group>"; };
-		E53D488F15448C860037A0BD /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E53D488E15448C860037A0BD /* Stockz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stockz-Prefix.pch"; sourceTree = "<group>"; };
+		E53D488F15448C860037A0BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E53D489015448C860037A0BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E53D489315448C860037A0BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E53D489615448C860037A0BD /* Stockz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stockz.xcdatamodel; sourceTree = "<group>"; };
-		E53D489815448C860037A0BD /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		E53D489815448C860037A0BD /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		E53D489915448C860037A0BD /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		E53D489B15448C860037A0BD /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		E53D489B15448C860037A0BD /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		E53D489C15448C860037A0BD /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
 		E53D48A315448C860037A0BD /* StockzTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockzTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53D48A415448C860037A0BD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		E53D48AD15448C860037A0BD /* StockzTests-Info.plist */ = {isa = PBXFileReference; path = "StockzTests-Info.plist"; sourceTree = "<group>"; };
+		E53D48AD15448C860037A0BD /* StockzTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StockzTests-Info.plist"; sourceTree = "<group>"; };
 		E53D48AF15448C860037A0BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E53D48B115448C860037A0BD /* StockzTests.h */ = {isa = PBXFileReference; path = StockzTests.h; sourceTree = "<group>"; };
+		E53D48B115448C860037A0BD /* StockzTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StockzTests.h; sourceTree = "<group>"; };
 		E53D48B215448C860037A0BD /* StockzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockzTests.m; sourceTree = "<group>"; };
+		E593EB8A1544D99800E6D236 /* StockSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockSymbol.h; sourceTree = "<group>"; };
+		E593EB8B1544D99800E6D236 /* StockSymbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockSymbol.m; sourceTree = "<group>"; };
+		E593EB8E1544E97B00E6D236 /* StockSymbolDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockSymbolDataController.h; sourceTree = "<group>"; };
+		E593EB8F1544E97B00E6D236 /* StockSymbolDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockSymbolDataController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,9 +130,13 @@
 			children = (
 				E53D488F15448C860037A0BD /* AppDelegate.h */,
 				E53D489015448C860037A0BD /* AppDelegate.m */,
+				E593EB8E1544E97B00E6D236 /* StockSymbolDataController.h */,
+				E593EB8F1544E97B00E6D236 /* StockSymbolDataController.m */,
 				E53D489215448C860037A0BD /* MainStoryboard.storyboard */,
 				E53D489815448C860037A0BD /* MainViewController.h */,
 				E53D489915448C860037A0BD /* MainViewController.m */,
+				E593EB8A1544D99800E6D236 /* StockSymbol.h */,
+				E593EB8B1544D99800E6D236 /* StockSymbol.m */,
 				E53D489B15448C860037A0BD /* FlipsideViewController.h */,
 				E53D489C15448C860037A0BD /* FlipsideViewController.m */,
 				E53D489515448C860037A0BD /* Stockz.xcdatamodeld */,
@@ -277,6 +287,8 @@
 				E53D489715448C860037A0BD /* Stockz.xcdatamodeld in Sources */,
 				E53D489A15448C860037A0BD /* MainViewController.m in Sources */,
 				E53D489D15448C860037A0BD /* FlipsideViewController.m in Sources */,
+				E593EB8C1544D99800E6D236 /* StockSymbol.m in Sources */,
+				E593EB901544E97B00E6D236 /* StockSymbolDataController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +458,7 @@
 				E53D48B815448C860037A0BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E53D48B915448C860037A0BD /* Build configuration list for PBXNativeTarget "StockzTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +467,7 @@
 				E53D48BB15448C860037A0BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

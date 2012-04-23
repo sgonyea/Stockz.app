@@ -9,9 +9,15 @@
 #import "FlipsideViewController.h"
 
 #import <CoreData/CoreData.h>
+#import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController <FlipsideViewControllerDelegate>
+@class StockSymbolDataController;
+
+@interface MainViewController : UIViewController <FlipsideViewControllerDelegate, UITableViewDelegate>
 
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (strong, nonatomic) StockSymbolDataController *dataController;
+
+@property (weak, nonatomic) IBOutlet UITableView *stockTableView;
 
 @end
