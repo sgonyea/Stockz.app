@@ -69,6 +69,7 @@
 #pragma mark - Flipside View
 
 - (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller {
+  [[self stockTableView] reloadData];
   [self dismissModalViewControllerAnimated:YES];
 }
 

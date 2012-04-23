@@ -58,4 +58,8 @@
   return [self.masterStockSymbolList count];
 }
 
+-(void)removeObjectAtIndex:(NSUInteger)theIndex {
+  [self.masterStockSymbolList removeObjectAtIndex:theIndex];
+}
+
 @end

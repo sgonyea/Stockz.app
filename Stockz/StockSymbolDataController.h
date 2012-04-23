@@ -17,5 +17,6 @@
 -(NSUInteger)countOfList;
 -(StockSymbol *)objectInListAtIndex:(NSUInteger)theIndex;
 -(void)addStockWithSymbol:(NSString *)symbol;
+-(void)removeObjectAtIndex:(NSUInteger)theIndex;
 
 @end
