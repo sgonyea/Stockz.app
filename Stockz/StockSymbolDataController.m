@@ -39,6 +39,7 @@
 
   [self addStockWithSymbol:@"AAPL"];
   [self addStockWithSymbol:@"ARMH"];
+  [self addStockWithSymbol:@"INTC"];
 }
 
 -(void)addStockWithSymbol:(NSString *)symbol {
