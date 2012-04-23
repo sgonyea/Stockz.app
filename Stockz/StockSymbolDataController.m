@@ -62,4 +62,10 @@
   [self.masterStockSymbolList removeObjectAtIndex:theIndex];
 }
 
+-(void)moveRowAtIndexPath:(NSUInteger)fromIndex toIndexPath:(NSUInteger)toIndex {
+  StockSymbol *stock = [self.masterStockSymbolList objectAtIndex:fromIndex];
+  [self.masterStockSymbolList removeObjectAtIndex:fromIndex];
+  [self.masterStockSymbolList insertObject:stock atIndex:toIndex];
+}
+
 @end

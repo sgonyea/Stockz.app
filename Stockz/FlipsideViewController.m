@@ -31,6 +31,7 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
+  [[self stockTableView] setEditing:YES animated:YES];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -81,6 +82,10 @@
     [self.stockTableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:YES];
     [[self stockTableView] reloadData];
   }
+}
+
+- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndex toIndexPath:(NSIndexPath *)toIndex {
+  [self.dataController moveRowAtIndexPath:fromIndex.row toIndexPath:toIndex.row];
 }
 
 @end

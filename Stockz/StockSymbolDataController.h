@@ -18,5 +18,6 @@
 -(StockSymbol *)objectInListAtIndex:(NSUInteger)theIndex;
 -(void)addStockWithSymbol:(NSString *)symbol;
 -(void)removeObjectAtIndex:(NSUInteger)theIndex;
+-(void)moveRowAtIndexPath:(NSUInteger)fromIndex toIndexPath:(NSUInteger)toIndex;
 
 @end
