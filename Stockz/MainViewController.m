@@ -52,13 +52,13 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
   static NSString *CellIdentifier = @"MainStockCell";
-  
+
   UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-  
+
   StockSymbol *stockAtIndex = [self.dataController objectInListAtIndex:indexPath.row];
-  
+
   [[cell textLabel] setText:stockAtIndex.symbol];
-  
+
   return cell;
 }
 
