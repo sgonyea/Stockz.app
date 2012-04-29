@@ -78,6 +78,8 @@
 
   StockSymbol *stockAtIndex = [self.dataController objectInListAtIndex:indexPath.row];
 
+  [[cell textLabel] setTextColor:[UIColor whiteColor]];
+  [[cell textLabel] setShadowColor:[UIColor grayColor]];
   [[cell textLabel] setText:stockAtIndex.symbol];
 
   UIView *view = [[UIView alloc] init];
