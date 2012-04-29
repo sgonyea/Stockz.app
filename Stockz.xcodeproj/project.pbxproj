@@ -39,7 +39,6 @@
 		E53D48B315448C860037A0BD /* StockzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D48B215448C860037A0BD /* StockzTests.m */; };
 		E593EB8C1544D99800E6D236 /* StockSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = E593EB8B1544D99800E6D236 /* StockSymbol.m */; };
 		E593EB901544E97B00E6D236 /* StockSymbolDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = E593EB8F1544E97B00E6D236 /* StockSymbolDataController.m */; };
-		E5EB61F9154D034800C7BF30 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EB61F8154D034800C7BF30 /* CustomViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,8 +93,6 @@
 		E593EB8B1544D99800E6D236 /* StockSymbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockSymbol.m; sourceTree = "<group>"; };
 		E593EB8E1544E97B00E6D236 /* StockSymbolDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockSymbolDataController.h; sourceTree = "<group>"; };
 		E593EB8F1544E97B00E6D236 /* StockSymbolDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockSymbolDataController.m; sourceTree = "<group>"; };
-		E5EB61F7154D034800C7BF30 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
-		E5EB61F8154D034800C7BF30 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,8 +155,6 @@
 			children = (
 				E51A966A154530C400099FAB /* CustomMainTableViewCell.h */,
 				E51A966B154530C400099FAB /* CustomMainTableViewCell.m */,
-				E5EB61F7154D034800C7BF30 /* CustomViewController.h */,
-				E5EB61F8154D034800C7BF30 /* CustomViewController.m */,
 			);
 			name = "Custom UI Elements";
 			sourceTree = "<group>";
@@ -388,7 +383,6 @@
 				E593EB8C1544D99800E6D236 /* StockSymbol.m in Sources */,
 				E593EB901544E97B00E6D236 /* StockSymbolDataController.m in Sources */,
 				E51A966C154530C400099FAB /* CustomMainTableViewCell.m in Sources */,
-				E5EB61F9154D034800C7BF30 /* CustomViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -89,25 +89,24 @@
   UIImage *image;
 
   // If the top Row
-//  if (indexPath.row == 0) {
-//    image = [UIImage imageNamed:@"BlueTopLightStripesSmall@2x.png"];
-//  }
-//  // If the bottom row
-//  else if (indexPath.row == [self.dataController countOfList] - 1) {
-//    if (indexPath.row % 2) {
-//      image = [UIImage imageNamed:@"BlueBotDarkStripesSmall@2x.png"];
-//    } else {
-//      image = [UIImage imageNamed:@"BlueBotLightStripesSmall@2x.png"];
-//    }
-//  }
-//  // Any row in-between
-//  else 
-  if (indexPath.row % 2) {
+  if (indexPath.row == 0) {
+    image = [UIImage imageNamed:@"BlueTopLightStripesSmall@2x.png"];
+  }
+  // If the bottom row
+  else if (indexPath.row == [self.dataController countOfList] - 1) {
+    if (indexPath.row % 2) {
+      image = [UIImage imageNamed:@"BlueBotDarkStripesSmall@2x.png"];
+    } else {
+      image = [UIImage imageNamed:@"BlueBotLightStripesSmall@2x.png"];
+    }
+  }
+  // Any row in-between
+  else if (indexPath.row % 2) {
     image = [UIImage imageNamed:@"BlueDarkStripesSmall@2x.png"];
   } else {
     image = [UIImage imageNamed:@"BlueLightStripesSmall@2x.png"];
   }
-  [cell setBackgroundColor:[UIColor clearColor]];
+
   [view setBackgroundColor:[UIColor colorWithPatternImage:image]];
   [cell setBackgroundView:view];
 
