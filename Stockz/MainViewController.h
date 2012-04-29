@@ -10,6 +10,7 @@
 
 #import <CoreData/CoreData.h>
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
 @class StockSymbolDataController;
 

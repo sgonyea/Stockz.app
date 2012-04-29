@@ -21,7 +21,33 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+  [self.stockTableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
+
+  UIView *sView = [[UIView alloc] init];
+  CGRect frame;
+
+  frame.origin.x = 10;
+  frame.origin.y = 0;
+  frame.size.width = 300;
+  frame.size.height = 265;
+
+  sView.frame = frame;
+  sView.clipsToBounds = YES;
+  sView.layer.cornerRadius = 10;
+  sView.layer.borderWidth = 1.0f;
+  sView.layer.borderColor = [[UIColor blackColor] CGColor];
+  sView.layer.masksToBounds = YES;
+
+  self.stockTableView.frame = CGRectMake(-10, -10, 320, 285);
+
+  [self.view addSubview:sView];
+
+  [sView addSubview:self.stockTableView];
+//  CGRectMake(10, 40, 300, 400);
+//  self.stockTableView.layer.borderWidth = 1.0f;
+//  self.stockTableView.layer.borderColor = [[UIColor greenColor] CGColor];
+//  self.stockTableView.layer.masksToBounds = YES;
+//  self.stockTableView.layer.cornerRadius = 12.0f;
 }
 
 - (void)viewDidUnload {
@@ -58,6 +84,32 @@
   StockSymbol *stockAtIndex = [self.dataController objectInListAtIndex:indexPath.row];
 
   [[cell textLabel] setText:stockAtIndex.symbol];
+
+  UIView *view = [[UIView alloc] init];
+  UIImage *image;
+
+  // If the top Row
+//  if (indexPath.row == 0) {
+//    image = [UIImage imageNamed:@"BlueTopLightStripesSmall@2x.png"];
+//  }
+//  // If the bottom row
+//  else if (indexPath.row == [self.dataController countOfList] - 1) {
+//    if (indexPath.row % 2) {
+//      image = [UIImage imageNamed:@"BlueBotDarkStripesSmall@2x.png"];
+//    } else {
+//      image = [UIImage imageNamed:@"BlueBotLightStripesSmall@2x.png"];
+//    }
+//  }
+//  // Any row in-between
+//  else 
+  if (indexPath.row % 2) {
+    image = [UIImage imageNamed:@"BlueDarkStripesSmall@2x.png"];
+  } else {
+    image = [UIImage imageNamed:@"BlueLightStripesSmall@2x.png"];
+  }
+  [cell setBackgroundColor:[UIColor clearColor]];
+  [view setBackgroundColor:[UIColor colorWithPatternImage:image]];
+  [cell setBackgroundView:view];
 
   return cell;
 }

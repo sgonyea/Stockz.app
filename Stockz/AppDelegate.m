@@ -22,8 +22,12 @@
   MainViewController *controller = (MainViewController *)self.window.rootViewController;
   controller.managedObjectContext = self.managedObjectContext;
 
+  controller.stockTableView.layer.cornerRadius = 15;
+
   StockSymbolDataController *aDataController = [[StockSymbolDataController alloc] init];
   controller.dataController = aDataController;
+
+  [[UIApplication sharedApplication] setStatusBarStyle: UIStatusBarStyleBlackTranslucent];
 
   return YES;
 }

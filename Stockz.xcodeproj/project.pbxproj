@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E51A966C154530C400099FAB /* CustomMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E51A966B154530C400099FAB /* CustomMainTableViewCell.m */; };
+		E533FAE8154CBD1E005DA06C /* DarkStripes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E533FAE6154CBD1E005DA06C /* DarkStripes@2x.png */; };
+		E533FAE9154CBD1E005DA06C /* LightStripes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E533FAE7154CBD1E005DA06C /* LightStripes@2x.png */; };
+		E533FAEB154CBFC1005DA06C /* BlueDarkStripes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E533FAEA154CBFC1005DA06C /* BlueDarkStripes@2x.png */; };
+		E533FAED154CC56A005DA06C /* BlueDarkStripesSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E533FAEC154CC56A005DA06C /* BlueDarkStripesSmall@2x.png */; };
+		E533FAEF154CC862005DA06C /* BlueLightStripes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E533FAEE154CC862005DA06C /* BlueLightStripes@2x.png */; };
+		E533FAF1154CCBA8005DA06C /* BlueDarkTopStripes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E533FAF0154CCBA8005DA06C /* BlueDarkTopStripes@2x.png */; };
+		E533FAF3154CCC87005DA06C /* BlueDarkTopStripesSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E533FAF2154CCC87005DA06C /* BlueDarkTopStripesSmall@2x.png */; };
+		E533FAF5154CCDF6005DA06C /* BlueLightStripesSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E533FAF4154CCDF6005DA06C /* BlueLightStripesSmall@2x.png */; };
+		E533FAF7154CD546005DA06C /* BlueTopLightStripes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E533FAF6154CD546005DA06C /* BlueTopLightStripes@2x.png */; };
+		E533FAF9154CD588005DA06C /* BlueTopLightStripesSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E533FAF8154CD588005DA06C /* BlueTopLightStripesSmall@2x.png */; };
+		E533FAFC154CD669005DA06C /* BlueBotDarkStripesSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E533FAFA154CD669005DA06C /* BlueBotDarkStripesSmall@2x.png */; };
+		E533FAFD154CD669005DA06C /* BlueBotLightStripesSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E533FAFB154CD669005DA06C /* BlueBotLightStripesSmall@2x.png */; };
 		E53D487F15448C860037A0BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53D487E15448C860037A0BD /* UIKit.framework */; };
 		E53D488115448C860037A0BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53D488015448C860037A0BD /* Foundation.framework */; };
 		E53D488315448C860037A0BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53D488215448C860037A0BD /* CoreGraphics.framework */; };
@@ -26,6 +39,7 @@
 		E53D48B315448C860037A0BD /* StockzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D48B215448C860037A0BD /* StockzTests.m */; };
 		E593EB8C1544D99800E6D236 /* StockSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = E593EB8B1544D99800E6D236 /* StockSymbol.m */; };
 		E593EB901544E97B00E6D236 /* StockSymbolDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = E593EB8F1544E97B00E6D236 /* StockSymbolDataController.m */; };
+		E5EB61F9154D034800C7BF30 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EB61F8154D034800C7BF30 /* CustomViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +53,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E51A966A154530C400099FAB /* CustomMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMainTableViewCell.h; sourceTree = "<group>"; };
+		E51A966B154530C400099FAB /* CustomMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMainTableViewCell.m; sourceTree = "<group>"; };
+		E533FAE6154CBD1E005DA06C /* DarkStripes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DarkStripes@2x.png"; path = "Stockz/DarkStripes@2x.png"; sourceTree = "<group>"; };
+		E533FAE7154CBD1E005DA06C /* LightStripes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LightStripes@2x.png"; path = "Stockz/LightStripes@2x.png"; sourceTree = "<group>"; };
+		E533FAEA154CBFC1005DA06C /* BlueDarkStripes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueDarkStripes@2x.png"; path = "Stockz/BlueDarkStripes@2x.png"; sourceTree = "<group>"; };
+		E533FAEC154CC56A005DA06C /* BlueDarkStripesSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueDarkStripesSmall@2x.png"; path = "Stockz/BlueDarkStripesSmall@2x.png"; sourceTree = "<group>"; };
+		E533FAEE154CC862005DA06C /* BlueLightStripes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueLightStripes@2x.png"; path = "Stockz/BlueLightStripes@2x.png"; sourceTree = "<group>"; };
+		E533FAF0154CCBA8005DA06C /* BlueDarkTopStripes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueDarkTopStripes@2x.png"; path = "Stockz/BlueDarkTopStripes@2x.png"; sourceTree = "<group>"; };
+		E533FAF2154CCC87005DA06C /* BlueDarkTopStripesSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueDarkTopStripesSmall@2x.png"; path = "Stockz/BlueDarkTopStripesSmall@2x.png"; sourceTree = "<group>"; };
+		E533FAF4154CCDF6005DA06C /* BlueLightStripesSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueLightStripesSmall@2x.png"; path = "Stockz/BlueLightStripesSmall@2x.png"; sourceTree = "<group>"; };
+		E533FAF6154CD546005DA06C /* BlueTopLightStripes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueTopLightStripes@2x.png"; path = "Stockz/BlueTopLightStripes@2x.png"; sourceTree = "<group>"; };
+		E533FAF8154CD588005DA06C /* BlueTopLightStripesSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueTopLightStripesSmall@2x.png"; path = "Stockz/BlueTopLightStripesSmall@2x.png"; sourceTree = "<group>"; };
+		E533FAFA154CD669005DA06C /* BlueBotDarkStripesSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueBotDarkStripesSmall@2x.png"; path = "Stockz/BlueBotDarkStripesSmall@2x.png"; sourceTree = "<group>"; };
+		E533FAFB154CD669005DA06C /* BlueBotLightStripesSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueBotLightStripesSmall@2x.png"; path = "Stockz/BlueBotLightStripesSmall@2x.png"; sourceTree = "<group>"; };
 		E53D487A15448C860037A0BD /* Stockz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stockz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53D487E15448C860037A0BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E53D488015448C860037A0BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,6 +94,8 @@
 		E593EB8B1544D99800E6D236 /* StockSymbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockSymbol.m; sourceTree = "<group>"; };
 		E593EB8E1544E97B00E6D236 /* StockSymbolDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockSymbolDataController.h; sourceTree = "<group>"; };
 		E593EB8F1544E97B00E6D236 /* StockSymbolDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockSymbolDataController.m; sourceTree = "<group>"; };
+		E5EB61F7154D034800C7BF30 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		E5EB61F8154D034800C7BF30 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +124,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E51A966515452FEE00099FAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E593EB8A1544D99800E6D236 /* StockSymbol.h */,
+				E593EB8B1544D99800E6D236 /* StockSymbol.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E51A966715452FFD00099FAB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E53D489815448C860037A0BD /* MainViewController.h */,
+				E53D489915448C860037A0BD /* MainViewController.m */,
+				E53D489B15448C860037A0BD /* FlipsideViewController.h */,
+				E53D489C15448C860037A0BD /* FlipsideViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E51A96681545301600099FAB /* Data Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E593EB8E1544E97B00E6D236 /* StockSymbolDataController.h */,
+				E593EB8F1544E97B00E6D236 /* StockSymbolDataController.m */,
+			);
+			name = "Data Controllers";
+			sourceTree = "<group>";
+		};
+		E51A96691545303F00099FAB /* Custom UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				E51A966A154530C400099FAB /* CustomMainTableViewCell.h */,
+				E51A966B154530C400099FAB /* CustomMainTableViewCell.m */,
+				E5EB61F7154D034800C7BF30 /* CustomViewController.h */,
+				E5EB61F8154D034800C7BF30 /* CustomViewController.m */,
+			);
+			name = "Custom UI Elements";
+			sourceTree = "<group>";
+		};
+		E533FAD4154CAF54005DA06C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E533FAFA154CD669005DA06C /* BlueBotDarkStripesSmall@2x.png */,
+				E533FAFB154CD669005DA06C /* BlueBotLightStripesSmall@2x.png */,
+				E533FAF8154CD588005DA06C /* BlueTopLightStripesSmall@2x.png */,
+				E533FAF6154CD546005DA06C /* BlueTopLightStripes@2x.png */,
+				E533FAF4154CCDF6005DA06C /* BlueLightStripesSmall@2x.png */,
+				E533FAF2154CCC87005DA06C /* BlueDarkTopStripesSmall@2x.png */,
+				E533FAF0154CCBA8005DA06C /* BlueDarkTopStripes@2x.png */,
+				E533FAEE154CC862005DA06C /* BlueLightStripes@2x.png */,
+				E533FAEC154CC56A005DA06C /* BlueDarkStripesSmall@2x.png */,
+				E533FAEA154CBFC1005DA06C /* BlueDarkStripes@2x.png */,
+				E533FAE6154CBD1E005DA06C /* DarkStripes@2x.png */,
+				E533FAE7154CBD1E005DA06C /* LightStripes@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		E53D486F15448C860037A0BD = {
 			isa = PBXGroup;
 			children = (
+				E533FAD4154CAF54005DA06C /* Resources */,
 				E53D488615448C860037A0BD /* Stockz */,
 				E53D48AB15448C860037A0BD /* StockzTests */,
 				E53D487D15448C860037A0BD /* Frameworks */,
@@ -130,15 +220,11 @@
 			children = (
 				E53D488F15448C860037A0BD /* AppDelegate.h */,
 				E53D489015448C860037A0BD /* AppDelegate.m */,
-				E593EB8E1544E97B00E6D236 /* StockSymbolDataController.h */,
-				E593EB8F1544E97B00E6D236 /* StockSymbolDataController.m */,
+				E51A96681545301600099FAB /* Data Controllers */,
+				E51A966715452FFD00099FAB /* View Controllers */,
+				E51A966515452FEE00099FAB /* Models */,
+				E51A96691545303F00099FAB /* Custom UI Elements */,
 				E53D489215448C860037A0BD /* MainStoryboard.storyboard */,
-				E53D489815448C860037A0BD /* MainViewController.h */,
-				E53D489915448C860037A0BD /* MainViewController.m */,
-				E593EB8A1544D99800E6D236 /* StockSymbol.h */,
-				E593EB8B1544D99800E6D236 /* StockSymbol.m */,
-				E53D489B15448C860037A0BD /* FlipsideViewController.h */,
-				E53D489C15448C860037A0BD /* FlipsideViewController.m */,
 				E53D489515448C860037A0BD /* Stockz.xcdatamodeld */,
 				E53D488715448C860037A0BD /* Supporting Files */,
 			);
@@ -248,6 +334,18 @@
 			files = (
 				E53D488B15448C860037A0BD /* InfoPlist.strings in Resources */,
 				E53D489415448C860037A0BD /* MainStoryboard.storyboard in Resources */,
+				E533FAE8154CBD1E005DA06C /* DarkStripes@2x.png in Resources */,
+				E533FAE9154CBD1E005DA06C /* LightStripes@2x.png in Resources */,
+				E533FAEB154CBFC1005DA06C /* BlueDarkStripes@2x.png in Resources */,
+				E533FAED154CC56A005DA06C /* BlueDarkStripesSmall@2x.png in Resources */,
+				E533FAEF154CC862005DA06C /* BlueLightStripes@2x.png in Resources */,
+				E533FAF1154CCBA8005DA06C /* BlueDarkTopStripes@2x.png in Resources */,
+				E533FAF3154CCC87005DA06C /* BlueDarkTopStripesSmall@2x.png in Resources */,
+				E533FAF5154CCDF6005DA06C /* BlueLightStripesSmall@2x.png in Resources */,
+				E533FAF7154CD546005DA06C /* BlueTopLightStripes@2x.png in Resources */,
+				E533FAF9154CD588005DA06C /* BlueTopLightStripesSmall@2x.png in Resources */,
+				E533FAFC154CD669005DA06C /* BlueBotDarkStripesSmall@2x.png in Resources */,
+				E533FAFD154CD669005DA06C /* BlueBotLightStripesSmall@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +387,8 @@
 				E53D489D15448C860037A0BD /* FlipsideViewController.m in Sources */,
 				E593EB8C1544D99800E6D236 /* StockSymbol.m in Sources */,
 				E593EB901544E97B00E6D236 /* StockSymbolDataController.m in Sources */,
+				E51A966C154530C400099FAB /* CustomMainTableViewCell.m in Sources */,
+				E5EB61F9154D034800C7BF30 /* CustomViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

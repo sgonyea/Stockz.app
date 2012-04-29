@@ -40,6 +40,11 @@
   [self addStockWithSymbol:@"AAPL"];
   [self addStockWithSymbol:@"ARMH"];
   [self addStockWithSymbol:@"INTC"];
+  [self addStockWithSymbol:@"GOOG"];
+  [self addStockWithSymbol:@"MSFT"];
+  [self addStockWithSymbol:@"ROFL"];
+  [self addStockWithSymbol:@"LULZ"];
+  [self addStockWithSymbol:@"ZOMG"];
 }
 
 -(void)addStockWithSymbol:(NSString *)symbol {
