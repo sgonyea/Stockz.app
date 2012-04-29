@@ -43,11 +43,6 @@
   [self.view addSubview:sView];
 
   [sView addSubview:self.stockTableView];
-//  CGRectMake(10, 40, 300, 400);
-//  self.stockTableView.layer.borderWidth = 1.0f;
-//  self.stockTableView.layer.borderColor = [[UIColor greenColor] CGColor];
-//  self.stockTableView.layer.masksToBounds = YES;
-//  self.stockTableView.layer.cornerRadius = 12.0f;
 }
 
 - (void)viewDidUnload {
