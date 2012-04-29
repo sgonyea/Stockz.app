@@ -10,7 +10,10 @@
 
 @implementation StockSymbol
 
-@synthesize symbol = _symbol;
+@synthesize symbol      = _symbol;
+@synthesize priceChg    = _priceChg;
+@synthesize percentChg  = _percentChg;
+@synthesize marketCap   = _marketCap;
 
 -(id)initWithSymbol:(NSString *)symbol {
   self = [super init];
@@ -22,7 +25,6 @@
   }
   
   return nil;
-
 }
 
 @end

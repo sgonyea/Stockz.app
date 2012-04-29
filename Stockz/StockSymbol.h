@@ -11,6 +11,9 @@
 @interface StockSymbol : NSObject
 
 @property (nonatomic, copy) NSString *symbol;
+@property (nonatomic, copy) NSString *priceChg;
+@property (nonatomic, copy) NSString *percentChg;
+@property (nonatomic, copy) NSString *marketCap;
 
 -(id)initWithSymbol:(NSString *)symbol;
 
