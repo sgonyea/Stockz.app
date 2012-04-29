@@ -9,9 +9,6 @@
 #import "MainViewController.h"
 #import "StockSymbolDataController.h"
 #import "StockSymbol.h"
-#import "RoundedUIView.h"
-
-@class RoundedUIView;
 
 @interface MainViewController ()
 @end
@@ -74,33 +71,33 @@
   return [self.dataController countOfList];
 }
 
-static void addTopRoundedRectToPath(CGContextRef context, CGRect rect, float ovalWidth, float ovalHeight) {
+static void addRoundedRectToPath(CGContextRef context, CGRect rect, float ovalWidth, float ovalHeight, BOOL top, BOOL bottom) {
   if (ovalWidth == 0 || ovalHeight == 0) {
     CGContextAddRect(context, rect);
     return;
   }
-
+  
   float fwidth, fheight;
-
+  
   fwidth  = CGRectGetWidth(rect)  / ovalWidth;
   fheight = CGRectGetHeight(rect) / ovalHeight;
-
+  
   CGContextSaveGState(context);
   CGContextTranslateCTM(context, CGRectGetMinX(rect), CGRectGetMinY(rect));
   CGContextScaleCTM(context, ovalWidth, ovalHeight);
-
+  
   CGContextMoveToPoint(context, fwidth, fheight/2);
-
-  CGContextAddArcToPoint(context, fwidth, fheight,  fwidth/2, fheight,    1);
-  CGContextAddArcToPoint(context, 0,      fheight,  0,        fheight/2,  1);
-  CGContextAddArcToPoint(context, 0,      0,        fwidth/2, 0,          0);
-  CGContextAddArcToPoint(context, fwidth, 0,        fwidth,   fheight/2,  0);
-
+  
+  CGContextAddArcToPoint(context, fwidth, fheight,  fwidth/2, fheight,    bottom);
+  CGContextAddArcToPoint(context, 0,      fheight,  0,        fheight/2,  bottom);
+  CGContextAddArcToPoint(context, 0,      0,        fwidth/2, 0,          top);
+  CGContextAddArcToPoint(context, fwidth, 0,        fwidth,   fheight/2,  top);
+  
   CGContextClosePath(context);
   CGContextRestoreGState(context);
 }
 
--(UIImage *)makeRoundCornerImage:(UIImage*)img cornerWidth:(int)cornerWidth cornerHeight:(int)cornerHeight {
+-(UIImage *)makeRoundCornerImage:(UIImage*)img cornerWidth:(int)cornerWidth cornerHeight:(int)cornerHeight toTop:(BOOL)top toBottom:(BOOL)bottom {
   int w = img.size.width;
   int h = img.size.height;
   
@@ -109,7 +106,7 @@ static void addTopRoundedRectToPath(CGContextRef context, CGRect rect, float ova
   
   CGContextBeginPath(context);
   CGRect rect = CGRectMake(0, 0, img.size.width, img.size.height);
-  addTopRoundedRectToPath(context, rect, cornerWidth, cornerHeight);
+  addRoundedRectToPath(context, rect, cornerWidth, cornerHeight, bottom, top);
 
   CGContextClosePath(context);
   CGContextClip(context);
@@ -134,26 +131,23 @@ static void addTopRoundedRectToPath(CGContextRef context, CGRect rect, float ova
   [[cell textLabel] setShadowColor:[UIColor grayColor]];
   [[cell textLabel] setText:stockAtIndex.symbol];
 
-  RoundedUIView *view = [[RoundedUIView alloc] init];
+  UIView *view = [[UIView alloc] init];
   UIImage *image;
 
   // If the top Row
   if (indexPath.row == 0) {
-    [view setIsFirst:YES];
-    image = [self makeRoundCornerImage:[UIImage imageNamed:@"BlueLightStripesSmall@2x.png"] cornerWidth:15 cornerHeight:20];
-//    image = [UIImage imageNamed:@"BlueLightStripesSmall@2x.png"];
+    image = [self makeRoundCornerImage:[UIImage imageNamed:@"BlueLightStripesSmall@2x.png"] cornerWidth:15 cornerHeight:20 toTop:YES toBottom:NO];
   }
   // If the bottom row
   else if (indexPath.row == [self.dataController countOfList] - 1) {
-    [view setIsLast:YES];
-
+    NSString *imageName;
     if (indexPath.row % 2) {
-      [view setIsEven:YES];
-      image = [UIImage imageNamed:@"BlueBotDarkStripesSmall@2x.png"];
+      imageName = @"BlueDarkStripesSmall@2x.png";
     } else {
-      [view setIsOdd:YES];
-      image = [UIImage imageNamed:@"BlueBotLightStripesSmall@2x.png"];
+      imageName = @"BlueLightStripesSmall@2x.png";
     }
+
+    image = [self makeRoundCornerImage:[UIImage imageNamed:imageName] cornerWidth:15 cornerHeight:20 toTop:NO toBottom:YES];
   }
   // Any row in-between
   else if (indexPath.row % 2) {
