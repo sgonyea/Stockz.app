@@ -75,27 +75,26 @@
 }
 
 static void addTopRoundedRectToPath(CGContextRef context, CGRect rect, float ovalWidth, float ovalHeight) {
-  float fw, fh;
   if (ovalWidth == 0 || ovalHeight == 0) {
     CGContextAddRect(context, rect);
     return;
   }
-  
+
+  float fwidth, fheight;
+
+  fwidth  = CGRectGetWidth(rect)  / ovalWidth;
+  fheight = CGRectGetHeight(rect) / ovalHeight;
+
   CGContextSaveGState(context);
   CGContextTranslateCTM(context, CGRectGetMinX(rect), CGRectGetMinY(rect));
   CGContextScaleCTM(context, ovalWidth, ovalHeight);
-  
-  fw = CGRectGetWidth(rect) / ovalWidth;
-  fh = CGRectGetHeight(rect) / ovalHeight;
 
-  NSLog(@"fw: %f\nfh: %f", fw, fh);
-  
-  CGContextMoveToPoint(context, fw, fh/2);
+  CGContextMoveToPoint(context, fwidth, fheight/2);
 
-  CGContextAddArcToPoint(context, fw, fh, fw/2, fh,   1);
-  CGContextAddArcToPoint(context, 0,  fh, 0,    fh/2, 1);
-  CGContextAddArcToPoint(context, 0,  0,  fw/2, 0,    0);
-  CGContextAddArcToPoint(context, fw, 0,  fw,   fh/2, 0);
+  CGContextAddArcToPoint(context, fwidth, fheight,  fwidth/2, fheight,    1);
+  CGContextAddArcToPoint(context, 0,      fheight,  0,        fheight/2,  1);
+  CGContextAddArcToPoint(context, 0,      0,        fwidth/2, 0,          0);
+  CGContextAddArcToPoint(context, fwidth, 0,        fwidth,   fheight/2,  0);
 
   CGContextClosePath(context);
   CGContextRestoreGState(context);
@@ -114,7 +113,7 @@ static void addTopRoundedRectToPath(CGContextRef context, CGRect rect, float ova
 
   CGContextClosePath(context);
   CGContextClip(context);
-  
+
   CGContextDrawImage(context, CGRectMake(0, 0, w, h), img.CGImage);
   
   CGImageRef imageMasked = CGBitmapContextCreateImage(context);
@@ -141,7 +140,7 @@ static void addTopRoundedRectToPath(CGContextRef context, CGRect rect, float ova
   // If the top Row
   if (indexPath.row == 0) {
     [view setIsFirst:YES];
-    image = [self makeRoundCornerImage:[UIImage imageNamed:@"BlueLightStripesSmall@2x.png"] cornerWidth:15 cornerHeight:15];
+    image = [self makeRoundCornerImage:[UIImage imageNamed:@"BlueLightStripesSmall@2x.png"] cornerWidth:15 cornerHeight:20];
 //    image = [UIImage imageNamed:@"BlueLightStripesSmall@2x.png"];
   }
   // If the bottom row
