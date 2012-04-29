@@ -9,6 +9,9 @@
 #import "MainViewController.h"
 #import "StockSymbolDataController.h"
 #import "StockSymbol.h"
+#import "RoundedUIView.h"
+
+@class RoundedUIView;
 
 @interface MainViewController ()
 @end
@@ -33,12 +36,12 @@
 
   sView.frame = frame;
   sView.clipsToBounds = YES;
-  sView.layer.cornerRadius = 10;
+  sView.layer.cornerRadius = 12;
   sView.layer.borderWidth = 1.0f;
   sView.layer.borderColor = [[UIColor blackColor] CGColor];
   sView.layer.masksToBounds = YES;
 
-  self.stockTableView.frame = CGRectMake(-10, -10, 320, 285);
+  self.stockTableView.frame = CGRectMake(-10, -9, 320, 285);
 
   [self.view addSubview:sView];
 
@@ -71,6 +74,56 @@
   return [self.dataController countOfList];
 }
 
+static void addTopRoundedRectToPath(CGContextRef context, CGRect rect, float ovalWidth, float ovalHeight) {
+  float fw, fh;
+  if (ovalWidth == 0 || ovalHeight == 0) {
+    CGContextAddRect(context, rect);
+    return;
+  }
+  
+  CGContextSaveGState(context);
+  CGContextTranslateCTM(context, CGRectGetMinX(rect), CGRectGetMinY(rect));
+  CGContextScaleCTM(context, ovalWidth, ovalHeight);
+  
+  fw = CGRectGetWidth(rect) / ovalWidth;
+  fh = CGRectGetHeight(rect) / ovalHeight;
+
+  NSLog(@"fw: %f\nfh: %f", fw, fh);
+  
+  CGContextMoveToPoint(context, fw, fh/2);
+
+  CGContextAddArcToPoint(context, fw, fh, fw/2, fh,   1);
+  CGContextAddArcToPoint(context, 0,  fh, 0,    fh/2, 1);
+  CGContextAddArcToPoint(context, 0,  0,  fw/2, 0,    0);
+  CGContextAddArcToPoint(context, fw, 0,  fw,   fh/2, 0);
+
+  CGContextClosePath(context);
+  CGContextRestoreGState(context);
+}
+
+-(UIImage *)makeRoundCornerImage:(UIImage*)img cornerWidth:(int)cornerWidth cornerHeight:(int)cornerHeight {
+  int w = img.size.width;
+  int h = img.size.height;
+  
+  CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
+  CGContextRef context = CGBitmapContextCreate(NULL, w, h, 8, 4 * w, colorSpace, kCGImageAlphaPremultipliedFirst);
+  
+  CGContextBeginPath(context);
+  CGRect rect = CGRectMake(0, 0, img.size.width, img.size.height);
+  addTopRoundedRectToPath(context, rect, cornerWidth, cornerHeight);
+
+  CGContextClosePath(context);
+  CGContextClip(context);
+  
+  CGContextDrawImage(context, CGRectMake(0, 0, w, h), img.CGImage);
+  
+  CGImageRef imageMasked = CGBitmapContextCreateImage(context);
+  CGContextRelease(context);
+  CGColorSpaceRelease(colorSpace);
+  
+  return [UIImage imageWithCGImage:imageMasked];
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
   static NSString *CellIdentifier = @"MainStockCell";
 
@@ -82,18 +135,24 @@
   [[cell textLabel] setShadowColor:[UIColor grayColor]];
   [[cell textLabel] setText:stockAtIndex.symbol];
 
-  UIView *view = [[UIView alloc] init];
+  RoundedUIView *view = [[RoundedUIView alloc] init];
   UIImage *image;
 
   // If the top Row
   if (indexPath.row == 0) {
-    image = [UIImage imageNamed:@"BlueTopLightStripesSmall@2x.png"];
+    [view setIsFirst:YES];
+    image = [self makeRoundCornerImage:[UIImage imageNamed:@"BlueLightStripesSmall@2x.png"] cornerWidth:15 cornerHeight:15];
+//    image = [UIImage imageNamed:@"BlueLightStripesSmall@2x.png"];
   }
   // If the bottom row
   else if (indexPath.row == [self.dataController countOfList] - 1) {
+    [view setIsLast:YES];
+
     if (indexPath.row % 2) {
+      [view setIsEven:YES];
       image = [UIImage imageNamed:@"BlueBotDarkStripesSmall@2x.png"];
     } else {
+      [view setIsOdd:YES];
       image = [UIImage imageNamed:@"BlueBotLightStripesSmall@2x.png"];
     }
   }
