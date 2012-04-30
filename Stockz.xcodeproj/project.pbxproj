@@ -492,7 +492,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/**";
+				HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/CorePlot_1.0/Source/framework\"/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 			};
@@ -511,7 +511,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/**";
+				HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/CorePlot_1.0/Source/framework\"/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
