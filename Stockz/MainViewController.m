@@ -30,7 +30,7 @@
   frame.origin.x = 10;
   frame.origin.y = 0;
   frame.size.width = 300;
-  frame.size.height = 265;
+  frame.size.height = 267;
 
   sView.frame = frame;
   sView.clipsToBounds = YES;
