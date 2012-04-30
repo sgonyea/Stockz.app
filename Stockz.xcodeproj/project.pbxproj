@@ -30,6 +30,9 @@
 		E53D48A815448C860037A0BD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53D488415448C860037A0BD /* CoreData.framework */; };
 		E53D48B015448C860037A0BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E53D48AE15448C860037A0BD /* InfoPlist.strings */; };
 		E53D48B315448C860037A0BD /* StockzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D48B215448C860037A0BD /* StockzTests.m */; };
+		E585C247154E30F0005318E9 /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = E585C246154E30F0005318E9 /* UIImage+Scale.m */; };
+		E585C24A154E397B005318E9 /* BlueDarkStripes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E585C248154E397B005318E9 /* BlueDarkStripes@2x.png */; };
+		E585C24B154E397B005318E9 /* BlueLightStripes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E585C249154E397B005318E9 /* BlueLightStripes@2x.png */; };
 		E593EB8C1544D99800E6D236 /* StockSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = E593EB8B1544D99800E6D236 /* StockSymbol.m */; };
 		E593EB901544E97B00E6D236 /* StockSymbolDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = E593EB8F1544E97B00E6D236 /* StockSymbolDataController.m */; };
 		E5EB6200154D272800C7BF30 /* RoundedUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EB61FF154D272800C7BF30 /* RoundedUIView.m */; };
@@ -76,6 +79,10 @@
 		E53D48AF15448C860037A0BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E53D48B115448C860037A0BD /* StockzTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StockzTests.h; sourceTree = "<group>"; };
 		E53D48B215448C860037A0BD /* StockzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockzTests.m; sourceTree = "<group>"; };
+		E585C245154E30F0005318E9 /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
+		E585C246154E30F0005318E9 /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
+		E585C248154E397B005318E9 /* BlueDarkStripes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueDarkStripes@2x.png"; path = "Stockz/BlueDarkStripes@2x.png"; sourceTree = "<group>"; };
+		E585C249154E397B005318E9 /* BlueLightStripes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueLightStripes@2x.png"; path = "Stockz/BlueLightStripes@2x.png"; sourceTree = "<group>"; };
 		E593EB8A1544D99800E6D236 /* StockSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockSymbol.h; sourceTree = "<group>"; };
 		E593EB8B1544D99800E6D236 /* StockSymbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockSymbol.m; sourceTree = "<group>"; };
 		E593EB8E1544E97B00E6D236 /* StockSymbolDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockSymbolDataController.h; sourceTree = "<group>"; };
@@ -153,6 +160,8 @@
 		E533FAD4154CAF54005DA06C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E585C248154E397B005318E9 /* BlueDarkStripes@2x.png */,
+				E585C249154E397B005318E9 /* BlueLightStripes@2x.png */,
 				E533FAFA154CD669005DA06C /* BlueBotDarkStripesSmall@2x.png */,
 				E533FAFB154CD669005DA06C /* BlueBotLightStripesSmall@2x.png */,
 				E533FAF8154CD588005DA06C /* BlueTopLightStripesSmall@2x.png */,
@@ -165,6 +174,7 @@
 		E53D486F15448C860037A0BD = {
 			isa = PBXGroup;
 			children = (
+				E585C242154E3099005318E9 /* MonkeyPatches */,
 				E533FAD4154CAF54005DA06C /* Resources */,
 				E53D488615448C860037A0BD /* Stockz */,
 				E53D48AB15448C860037A0BD /* StockzTests */,
@@ -238,6 +248,15 @@
 				E53D48AE15448C860037A0BD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E585C242154E3099005318E9 /* MonkeyPatches */ = {
+			isa = PBXGroup;
+			children = (
+				E585C245154E30F0005318E9 /* UIImage+Scale.h */,
+				E585C246154E30F0005318E9 /* UIImage+Scale.m */,
+			);
+			name = MonkeyPatches;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,6 +337,8 @@
 				E533FAF9154CD588005DA06C /* BlueTopLightStripesSmall@2x.png in Resources */,
 				E533FAFC154CD669005DA06C /* BlueBotDarkStripesSmall@2x.png in Resources */,
 				E533FAFD154CD669005DA06C /* BlueBotLightStripesSmall@2x.png in Resources */,
+				E585C24A154E397B005318E9 /* BlueDarkStripes@2x.png in Resources */,
+				E585C24B154E397B005318E9 /* BlueLightStripes@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +382,7 @@
 				E593EB901544E97B00E6D236 /* StockSymbolDataController.m in Sources */,
 				E51A966C154530C400099FAB /* CustomMainTableViewCell.m in Sources */,
 				E5EB6200154D272800C7BF30 /* RoundedUIView.m in Sources */,
+				E585C247154E30F0005318E9 /* UIImage+Scale.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
