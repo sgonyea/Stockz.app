@@ -9,6 +9,7 @@
 #import "MainViewController.h"
 #import "StockSymbolDataController.h"
 #import "StockSymbol.h"
+#import "UIImage+Scale.h"
 
 @interface MainViewController ()
 @end
@@ -33,12 +34,12 @@
 
   sView.frame = frame;
   sView.clipsToBounds = YES;
-  sView.layer.cornerRadius = 12;
+  sView.layer.cornerRadius = 10;
   sView.layer.borderWidth = 1.0f;
   sView.layer.borderColor = [[UIColor blackColor] CGColor];
   sView.layer.masksToBounds = YES;
 
-  self.stockTableView.frame = CGRectMake(-10, -9, 320, 285);
+  self.stockTableView.frame = CGRectMake(-9, -9, 320, 285);
 
   [self.view addSubview:sView];
 
@@ -137,26 +138,28 @@ static void addRoundedRectToPath(CGContextRef context, CGRect rect, float ovalWi
   UIView *view = [[UIView alloc] init];
   UIImage *image;
 
+  CGSize size = CGSizeMake(300, [cell frame].size.height);
+
   // If the top Row
   if (indexPath.row == 0) {
-    image = [self makeRoundCornerImage:[UIImage imageNamed:@"BlueLightStripesSmall@2x.png"] cornerWidth:15 cornerHeight:20 toTop:YES toBottom:NO];
+    image = [self makeRoundCornerImage:[[UIImage imageNamed:@"BlueLightStripes@2x.png"] scaleToSize:size] cornerWidth:12 cornerHeight:12 toTop:YES toBottom:NO];
   }
   // If the bottom row
   else if (indexPath.row == [self.dataController countOfList] - 1) {
     NSString *imageName;
     if (indexPath.row % 2) {
-      imageName = @"BlueDarkStripesSmall@2x.png";
+      imageName = @"BlueDarkStripes@2x.png";
     } else {
-      imageName = @"BlueLightStripesSmall@2x.png";
+      imageName = @"BlueLightStripes@2x.png";
     }
 
-    image = [self makeRoundCornerImage:[UIImage imageNamed:imageName] cornerWidth:15 cornerHeight:20 toTop:NO toBottom:YES];
+    image = [self makeRoundCornerImage:[[UIImage imageNamed:imageName] scaleToSize:size] cornerWidth:13 cornerHeight:13 toTop:NO toBottom:YES];
   }
   // Any row in-between
   else if (indexPath.row % 2) {
-    image = [UIImage imageNamed:@"BlueDarkStripesSmall@2x.png"];
+    image = [[UIImage imageNamed:@"BlueDarkStripes@2x.png"] scaleToSize:size];
   } else {
-    image = [UIImage imageNamed:@"BlueLightStripesSmall@2x.png"];
+    image = [[UIImage imageNamed:@"BlueLightStripes@2x.png"] scaleToSize:size];
   }
 
   [view setBackgroundColor:[UIColor colorWithPatternImage:image]];
