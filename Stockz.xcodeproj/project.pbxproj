@@ -10,9 +10,6 @@
 		E51A966C154530C400099FAB /* CustomMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E51A966B154530C400099FAB /* CustomMainTableViewCell.m */; };
 		E533FAED154CC56A005DA06C /* BlueDarkStripesSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E533FAEC154CC56A005DA06C /* BlueDarkStripesSmall@2x.png */; };
 		E533FAF5154CCDF6005DA06C /* BlueLightStripesSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E533FAF4154CCDF6005DA06C /* BlueLightStripesSmall@2x.png */; };
-		E533FAF9154CD588005DA06C /* BlueTopLightStripesSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E533FAF8154CD588005DA06C /* BlueTopLightStripesSmall@2x.png */; };
-		E533FAFC154CD669005DA06C /* BlueBotDarkStripesSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E533FAFA154CD669005DA06C /* BlueBotDarkStripesSmall@2x.png */; };
-		E533FAFD154CD669005DA06C /* BlueBotLightStripesSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E533FAFB154CD669005DA06C /* BlueBotLightStripesSmall@2x.png */; };
 		E53D487F15448C860037A0BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53D487E15448C860037A0BD /* UIKit.framework */; };
 		E53D488115448C860037A0BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53D488015448C860037A0BD /* Foundation.framework */; };
 		E53D488315448C860037A0BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53D488215448C860037A0BD /* CoreGraphics.framework */; };
@@ -50,9 +47,6 @@
 		E51A966B154530C400099FAB /* CustomMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMainTableViewCell.m; sourceTree = "<group>"; };
 		E533FAEC154CC56A005DA06C /* BlueDarkStripesSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueDarkStripesSmall@2x.png"; path = "Stockz/BlueDarkStripesSmall@2x.png"; sourceTree = "<group>"; };
 		E533FAF4154CCDF6005DA06C /* BlueLightStripesSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueLightStripesSmall@2x.png"; path = "Stockz/BlueLightStripesSmall@2x.png"; sourceTree = "<group>"; };
-		E533FAF8154CD588005DA06C /* BlueTopLightStripesSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueTopLightStripesSmall@2x.png"; path = "Stockz/BlueTopLightStripesSmall@2x.png"; sourceTree = "<group>"; };
-		E533FAFA154CD669005DA06C /* BlueBotDarkStripesSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueBotDarkStripesSmall@2x.png"; path = "Stockz/BlueBotDarkStripesSmall@2x.png"; sourceTree = "<group>"; };
-		E533FAFB154CD669005DA06C /* BlueBotLightStripesSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueBotLightStripesSmall@2x.png"; path = "Stockz/BlueBotLightStripesSmall@2x.png"; sourceTree = "<group>"; };
 		E53D487A15448C860037A0BD /* Stockz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stockz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53D487E15448C860037A0BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E53D488015448C860037A0BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -153,9 +147,6 @@
 		E533FAD4154CAF54005DA06C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E533FAFA154CD669005DA06C /* BlueBotDarkStripesSmall@2x.png */,
-				E533FAFB154CD669005DA06C /* BlueBotLightStripesSmall@2x.png */,
-				E533FAF8154CD588005DA06C /* BlueTopLightStripesSmall@2x.png */,
 				E533FAF4154CCDF6005DA06C /* BlueLightStripesSmall@2x.png */,
 				E533FAEC154CC56A005DA06C /* BlueDarkStripesSmall@2x.png */,
 			);
@@ -315,9 +306,6 @@
 				E53D489415448C860037A0BD /* MainStoryboard.storyboard in Resources */,
 				E533FAED154CC56A005DA06C /* BlueDarkStripesSmall@2x.png in Resources */,
 				E533FAF5154CCDF6005DA06C /* BlueLightStripesSmall@2x.png in Resources */,
-				E533FAF9154CD588005DA06C /* BlueTopLightStripesSmall@2x.png in Resources */,
-				E533FAFC154CD669005DA06C /* BlueBotDarkStripesSmall@2x.png in Resources */,
-				E533FAFD154CD669005DA06C /* BlueBotLightStripesSmall@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
