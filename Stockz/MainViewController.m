@@ -85,9 +85,11 @@ static void addRoundedRectToPath(CGContextRef context, CGRect rect, float ovalWi
   CGContextSaveGState(context);
   CGContextTranslateCTM(context, CGRectGetMinX(rect), CGRectGetMinY(rect));
   CGContextScaleCTM(context, ovalWidth, ovalHeight);
-  
+
   CGContextMoveToPoint(context, fwidth, fheight/2);
-  
+
+  CGContextSetInterpolationQuality(context, kCGInterpolationHigh); // Seems to have no effect.
+
   CGContextAddArcToPoint(context, fwidth, fheight,  fwidth/2, fheight,    bottom);
   CGContextAddArcToPoint(context, 0,      fheight,  0,        fheight/2,  bottom);
   CGContextAddArcToPoint(context, 0,      0,        fwidth/2, 0,          top);
@@ -106,6 +108,7 @@ static void addRoundedRectToPath(CGContextRef context, CGRect rect, float ovalWi
   
   CGContextBeginPath(context);
   CGRect rect = CGRectMake(0, 0, img.size.width, img.size.height);
+
   addRoundedRectToPath(context, rect, cornerWidth, cornerHeight, bottom, top);
 
   CGContextClosePath(context);
