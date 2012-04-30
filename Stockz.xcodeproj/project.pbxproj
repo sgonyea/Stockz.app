@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E51A966C154530C400099FAB /* CustomMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E51A966B154530C400099FAB /* CustomMainTableViewCell.m */; };
 		E533FAED154CC56A005DA06C /* BlueDarkStripesSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E533FAEC154CC56A005DA06C /* BlueDarkStripesSmall@2x.png */; };
 		E533FAF5154CCDF6005DA06C /* BlueLightStripesSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E533FAF4154CCDF6005DA06C /* BlueLightStripesSmall@2x.png */; };
 		E533FAF9154CD588005DA06C /* BlueTopLightStripesSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E533FAF8154CD588005DA06C /* BlueTopLightStripesSmall@2x.png */; };
@@ -63,8 +62,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E51A966A154530C400099FAB /* CustomMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMainTableViewCell.h; sourceTree = "<group>"; };
-		E51A966B154530C400099FAB /* CustomMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMainTableViewCell.m; sourceTree = "<group>"; };
 		E533FAEC154CC56A005DA06C /* BlueDarkStripesSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueDarkStripesSmall@2x.png"; path = "Stockz/BlueDarkStripesSmall@2x.png"; sourceTree = "<group>"; };
 		E533FAF4154CCDF6005DA06C /* BlueLightStripesSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueLightStripesSmall@2x.png"; path = "Stockz/BlueLightStripesSmall@2x.png"; sourceTree = "<group>"; };
 		E533FAF8154CD588005DA06C /* BlueTopLightStripesSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueTopLightStripesSmall@2x.png"; path = "Stockz/BlueTopLightStripesSmall@2x.png"; sourceTree = "<group>"; };
@@ -164,8 +161,6 @@
 		E51A96691545303F00099FAB /* Custom UI Elements */ = {
 			isa = PBXGroup;
 			children = (
-				E51A966A154530C400099FAB /* CustomMainTableViewCell.h */,
-				E51A966B154530C400099FAB /* CustomMainTableViewCell.m */,
 				E5EB61FE154D272800C7BF30 /* RoundedUIView.h */,
 				E5EB61FF154D272800C7BF30 /* RoundedUIView.m */,
 			);
@@ -421,7 +416,6 @@
 				E53D489D15448C860037A0BD /* FlipsideViewController.m in Sources */,
 				E593EB8C1544D99800E6D236 /* StockSymbol.m in Sources */,
 				E593EB901544E97B00E6D236 /* StockSymbolDataController.m in Sources */,
-				E51A966C154530C400099FAB /* CustomMainTableViewCell.m in Sources */,
 				E5EB6200154D272800C7BF30 /* RoundedUIView.m in Sources */,
 				E585C247154E30F0005318E9 /* UIImage+Scale.m in Sources */,
 			);
