@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTLayer.m \
+  /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTLayer.h \
+  /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTDefinitions.h \
+  /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTResponder.h \
+  /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTAxisSet.h \
+  /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTExceptions.h \
+  /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTGraph.h \
+  /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTBorderedLayer.h \
+  /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTAnnotationHostLayer.h \
+  /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTLineStyle.h \
+  /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTPathExtensions.h \
+  /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/iPhoneOnly/CPTPlatformSpecificDefines.h \
+  /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/iPhoneOnly/CPTPlatformSpecificFunctions.h \
+  /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTShadow.h \
+  /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTUtilities.h \
+  /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/../build/CorePlot-CocoaTouch.build/Release-iphoneos/CorePlot-CocoaTouch.build/DerivedSources/CorePlotProbes.h \
+  /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/NSCoderExtensions.h \
+  /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/NSNumberExtensions.h
