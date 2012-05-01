@@ -10,6 +10,7 @@
 #import "StockSymbolDataController.h"
 #import "StockSymbol.h"
 #import "UIImage+Scale.h"
+#import "CorePlot-CocoaTouch.h"
 
 @interface MainViewController ()
 @end
@@ -114,6 +115,10 @@ static void addRoundedRectToPath(CGContextRef context, CGRect rect, float ovalWi
 
   CGContextClosePath(context);
   CGContextClip(context);
+
+  CGContextSetInterpolationQuality(context, kCGInterpolationHigh);
+
+  CGContextSetShouldAntialias(context, NO);
 
   CGContextDrawImage(context, CGRectMake(0, 0, w, h), img.CGImage);
   

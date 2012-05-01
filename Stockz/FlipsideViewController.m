@@ -44,6 +44,13 @@
   return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+  if ([[segue identifier] isEqualToString:@"showAddStock"]) {
+    [[segue destinationViewController] setDataController:self.dataController];
+    [[segue destinationViewController] setDelegate:self];
+  }
+}
+
 #pragma mark - Actions
 
 - (IBAction)done:(id)sender {
@@ -92,6 +99,13 @@
 
 - (BOOL)tableView:(UITableView *)tableView shouldIndentWhileEditingRowAtIndexPath:(NSIndexPath *)indexPath {
   return NO;
+}
+
+#pragma mark - Add Stock View
+
+- (void)addStockViewControllerDidFinish:(AddStockViewController *)controller {
+  [[self stockTableView] reloadData];
+  [self dismissModalViewControllerAnimated:YES];
 }
 
 @end

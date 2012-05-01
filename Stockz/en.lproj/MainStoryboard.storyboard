@@ -60,7 +60,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="-288" y="397"/>
+            <point key="canvasLocation" x="-340" y="401"/>
         </scene>
         <!--Flipside View Controller-->
         <scene sceneID="9">
@@ -72,9 +72,9 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" style="grouped" allowsSelection="NO" allowsSelectionDuringEditing="YES" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="1Ks-l0-Dga">
-                                <rect key="frame" x="0.0" y="44" width="320" height="345"/>
+                                <rect key="frame" x="0.0" y="44" width="320" height="337"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" showsReorderControl="YES" indentationWidth="10" shouldIndentWhileEditing="NO" reuseIdentifier="FlipStockCell" id="ixd-3S-OQe">
                                         <rect key="frame" x="0.0" y="46" width="320" height="45"/>
@@ -96,7 +96,11 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Stocks" id="13">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="add" id="bU2-OI-l3d"/>
+                                        <barButtonItem key="leftBarButtonItem" systemItem="add" id="bU2-OI-l3d">
+                                            <connections>
+                                                <segue destination="zze-9i-57U" kind="push" identifier="showAddStock" id="xLL-1I-Klh"/>
+                                            </connections>
+                                        </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="14">
                                             <connections>
                                                 <action selector="done:" destination="6" id="16"/>
@@ -115,7 +119,7 @@
                                 </segments>
                             </segmentedControl>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
                     <connections>
@@ -123,10 +127,55 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="131" y="397"/>
+            <point key="canvasLocation" x="79" y="401"/>
+        </scene>
+        <!--Add Stock View Controller-->
+        <scene sceneID="Od6-RR-eV4">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gad-Jp-f5P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="zze-9i-57U" customClass="AddStockViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5tn-15-AqS">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" barStyle="blackOpaque" prompt="Type a company name or stock ID." showsCancelButton="YES" id="ts4-L3-SOp">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                <scopeButtonTitles>
+                                    <string>Title</string>
+                                    <string>Title</string>
+                                </scopeButtonTitles>
+                                <connections>
+                                    <outlet property="delegate" destination="zze-9i-57U" id="w6h-K5-0AH"/>
+                                </connections>
+                            </searchBar>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0K9-y6-pOx"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="3S6-3O-c5e" id="eg3-l6-RZS"/>
+                    </connections>
+                </viewController>
+                <searchDisplayController id="3S6-3O-c5e">
+                    <connections>
+                        <outlet property="delegate" destination="zze-9i-57U" id="oob-VH-7wJ"/>
+                        <outlet property="searchBar" destination="ts4-L3-SOp" id="c1g-yx-Kmf"/>
+                        <outlet property="searchContentsController" destination="zze-9i-57U" id="vHn-hb-DX0"/>
+                        <outlet property="searchResultsDataSource" destination="zze-9i-57U" id="jJk-Pg-yCm"/>
+                        <outlet property="searchResultsDelegate" destination="zze-9i-57U" id="GeK-0M-8Qn"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="494" y="401"/>
         </scene>
     </scenes>
     <classes>
+        <class className="AddStockViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AddStockViewController.h"/>
+        </class>
         <class className="FlipsideViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/FlipsideViewController.h"/>
             <relationships>

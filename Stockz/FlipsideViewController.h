@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "StockSymbolDataController.h"
+#import "AddStockViewController.h"
 
 @class FlipsideViewController;
 
@@ -15,7 +16,7 @@
 - (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller;
 @end
 
-@interface FlipsideViewController : UIViewController <UITableViewDelegate>
+@interface FlipsideViewController : UIViewController <AddStockViewControllerDelegate, UITableViewDelegate>
 
 @property (strong, nonatomic) StockSymbolDataController *dataController;
 @property (weak, nonatomic) id <FlipsideViewControllerDelegate> delegate;
