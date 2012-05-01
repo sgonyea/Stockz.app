@@ -98,7 +98,7 @@
                                     <navigationItem title="Stocks" id="13">
                                         <barButtonItem key="leftBarButtonItem" systemItem="add" id="bU2-OI-l3d">
                                             <connections>
-                                                <segue destination="zze-9i-57U" kind="push" identifier="showAddStock" id="xLL-1I-Klh"/>
+                                                <segue destination="zze-9i-57U" kind="modal" identifier="showAddStock" modalTransitionStyle="coverVertical" id="yuK-G2-q6t"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="14">
