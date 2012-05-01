@@ -40,10 +40,6 @@
   // Release any retained subviews of the main view.
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-  return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-}
-
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
   if ([[segue identifier] isEqualToString:@"showAddStock"]) {
     [[segue destinationViewController] setDataController:self.dataController];
