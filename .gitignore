@@ -1,3 +1,9 @@
 /Stockz.xcodeproj/project.xcworkspace/xcuserdata/*
 /Stockz.xcodeproj/xcuserdata/*
-
+*.d
+*.o
+*.hmap
+*.dep
+*.dat
+*.LinkFileList
+UserInterfaceState.xcuserstate

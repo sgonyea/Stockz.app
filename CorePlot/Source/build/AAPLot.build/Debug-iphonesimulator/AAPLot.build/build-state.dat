@@ -1,851 +1,0 @@
-TAAPLot
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/Info.plist Info.plist
-cCompileXIB /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/MainView.xib
-cCompileXIB /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/../MainWindow.xib
-cCompileXIB /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/FlipsideView.xib
-cCopyPlistFile /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/AAPL.plist AAPL.plist
-cProcessPCH /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-cpifamseywmzvmayihrjbpoalyqx/AAPLot_Prefix.pch.pth AAPLot_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/main.o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/FlipsideView.o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/FlipsideView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/AAPLotAppDelegate.o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/AAPLotAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/MainViewController.o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/RootViewController.o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/FlipsideViewController.o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/APFinancialData.o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/APFinancialData.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/APYahooDataPuller.o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/APYahooDataPuller.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/NSDateFormatterExtensions.o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/NSDateFormatterExtensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/AAPLot normal i386
-cGenerateDSYMFile /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app.dSYM /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/AAPLot
-cTouch /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
-c000000004F75162E0000000000000110
-t1333073454
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004F5C53BB0000000000244490
-t1331450811
-s2376848
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004F5C53BB0000000000353830
-t1331450811
-s3487792
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004F5C53BB0000000000001534
-t1331450811
-s5428
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004F5C53BD00000000001AB190
-t1331450813
-s1749392
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004F5C53BD0000000000000BF5
-t1331450813
-s3061
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004F5C53BE0000000000905E40
-t1331450814
-s9461312
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/build/Debug-iphonesimulator/libCorePlot-CocoaTouch.a
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/AAPLot.LinkFileList
-c000000004F9EE08100000000000005BF
-t1335812225
-s1471
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/AAPLotAppDelegate.o
-t1335814231
-s59164
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/APFinancialData.o
-t1335814231
-s9056
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/APYahooDataPuller.o
-t1335814231
-s62072
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/FlipsideView.o
-t1335814231
-s45132
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/FlipsideViewController.o
-t1335814231
-s45716
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/MainViewController.o
-t1335814231
-s100448
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/NSDateFormatterExtensions.o
-t1335814231
-s5664
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/RootViewController.o
-t1335814231
-s69272
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/main.o
-t1335814231
-s3840
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app
-t1335814586
-s272
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app.dSYM
-t2
-s0
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/AAPL.plist
-t1335812225
-s6741
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/AAPLot
-t2
-s0
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/FlipsideView.nib
-t1335812225
-s905
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/Info.plist
-t1335812225
-s584
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/MainView.nib
-t1335812225
-s1094
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/MainWindow.nib
-t1335812225
-s1955
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/PkgInfo
-t1335812225
-s8
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/AAPL.plist
-c000000004B6DEBA70000000000004F13
-t1265494951
-s20243
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/AAPLot_Prefix.pch
-c000000004B6DEBA700000000000000C8
-t1265494951
-s200
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/APFinancialData.h
-c000000004F4118B30000000000000083
-t1329666227
-s131
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/APFinancialData.m
-c000000004F4118B3000000000000065B
-t1329666227
-s1627
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/APYahooDataPuller.h
-c000000004F4118B300000000000005D3
-t1329666227
-s1491
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/APYahooDataPuller.m
-c000000004F4118B30000000000002E04
-t1329666227
-s11780
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/../MainWindow.xib
-c000000004B6DEBA700000000000035B4
-t1265494951
-s13748
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/AAPLotAppDelegate.h
-c000000004F4118B300000000000001D6
-t1329666227
-s470
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/AAPLotAppDelegate.m
-c000000004F4118B3000000000000021A
-t1329666227
-s538
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/FlipsideView.h
-c000000004F4118B300000000000000D2
-t1329666227
-s210
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/FlipsideView.m
-c000000004F4118B300000000000001A1
-t1329666227
-s417
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/FlipsideViewController.h
-c000000004F4118B300000000000000F0
-t1329666227
-s240
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/FlipsideViewController.m
-c000000004F4118B3000000000000036C
-t1329666227
-s876
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/MainViewController.h
-c000000004F4118B300000000000001B2
-t1329666227
-s434
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/MainViewController.m
-c000000004F4118B400000000000027DC
-t1329666228
-s10204
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/RootViewController.h
-c000000004F4118B400000000000002ED
-t1329666228
-s749
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/RootViewController.m
-c000000004F4118B40000000000000EC6
-t1329666228
-s3782
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/FlipsideView.xib
-c000000004B6DEBA7000000000000182B
-t1265494951
-s6187
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/MainView.xib
-c000000004E978B1800000000000045EB
-t1318554392
-s17899
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/NSDateFormatterExtensions.h
-c000000004F4118B40000000000000079
-t1329666228
-s121
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/NSDateFormatterExtensions.m
-c000000004F4118B40000000000000111
-t1329666228
-s273
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/main.m
-c000000004F4118B400000000000000D7
-t1329666228
-s215
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/CorePlot-CocoaTouch.h
-c000000004F4118BB000000000000066E
-t1329666235
-s1646
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTAnnotation.h
-c000000004F4118BD00000000000003B7
-t1329666237
-s951
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTAnnotationHostLayer.h
-c000000004F4118BE000000000000017B
-t1329666238
-s379
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTAxis.h
-c000000004F4118BE00000000000022CD
-t1329666238
-s8909
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTAxisLabel.h
-c000000004F4118BE0000000000000419
-t1329666238
-s1049
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTAxisSet.h
-c000000004F4118BE0000000000000166
-t1329666238
-s358
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTAxisTitle.h
-c000000004F4118BE000000000000006D
-t1329666238
-s109
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTBarPlot.h
-c000000004F4118BE0000000000000F07
-t1329666238
-s3847
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTBorderedLayer.h
-c000000004F4118BF0000000000000162
-t1329666239
-s354
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTColor.h
-c000000004F4118BF0000000000000449
-t1329666239
-s1097
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTColorSpace.h
-c000000004F4118BF0000000000000198
-t1329666239
-s408
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTConstraints.h
-c000000004F4118BF00000000000003B4
-t1329666239
-s948
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTDefinitions.h
-c000000004F4118C00000000000000F6A
-t1329666240
-s3946
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTExceptions.h
-c000000004F4118C000000000000000E1
-t1329666240
-s225
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTFill.h
-c000000004F4118C00000000000000352
-t1329666240
-s850
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTGradient.h
-c000000004F4118C00000000000000C0A
-t1329666240
-s3082
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTGraph.h
-c000000004F4118C10000000000000DB8
-t1329666241
-s3512
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTImage.h
-c000000004F4118C100000000000003CB
-t1329666241
-s971
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTLayer.h
-c000000004F4118C10000000000000A7A
-t1329666241
-s2682
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTLayerAnnotation.h
-c000000004F4118C100000000000001FA
-t1329666241
-s506
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTLegend.h
-c000000004F4118C20000000000000FFE
-t1329666242
-s4094
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTLegendEntry.h
-c000000004F4118C20000000000000392
-t1329666242
-s914
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTLimitBand.h
-c000000004F4118C2000000000000021E
-t1329666242
-s542
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTLineCap.h
-c000000004F4118C20000000000000859
-t1329666242
-s2137
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTLineStyle.h
-c000000004F4118C20000000000000418
-t1329666242
-s1048
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTMutableLineStyle.h
-c000000004F4118C20000000000000236
-t1329666242
-s566
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTMutableNumericData+TypeConversion.h
-c000000004F4118C200000000000002BD
-t1329666242
-s701
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTMutableNumericData.h
-c000000004F4118C20000000000000302
-t1329666242
-s770
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTMutablePlotRange.h
-c000000004F4118C30000000000000277
-t1329666243
-s631
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTMutableShadow.h
-c000000004F4118C30000000000000161
-t1329666243
-s353
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTMutableTextStyle.h
-c000000004F4118C3000000000000017E
-t1329666243
-s382
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTNumericData+TypeConversion.h
-c000000004F4118C3000000000000032D
-t1329666243
-s813
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTNumericData.h
-c000000004F4118C300000000000007F0
-t1329666243
-s2032
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTNumericDataType.h
-c000000004F4118C4000000000000051A
-t1329666244
-s1306
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTPathExtensions.h
-c000000004F4118C40000000000000125
-t1329666244
-s293
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTPieChart.h
-c000000004F4118C40000000000000D54
-t1329666244
-s3412
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTPlot.h
-c000000004F4118C40000000000001E53
-t1329666244
-s7763
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTPlotArea.h
-c000000004F4118C50000000000000662
-t1329666245
-s1634
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTPlotAreaFrame.h
-c000000004F4118C50000000000000176
-t1329666245
-s374
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTPlotRange.h
-c000000004F4118C50000000000000780
-t1329666245
-s1920
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTPlotSpace.h
-c000000004F4118C50000000000001733
-t1329666245
-s5939
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTPlotSpaceAnnotation.h
-c000000004F4118C5000000000000019B
-t1329666245
-s411
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTPlotSymbol.h
-c000000004F4118C50000000000000964
-t1329666245
-s2404
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTRangePlot.h
-c000000004F4118C60000000000000521
-t1329666246
-s1313
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTResponder.h
-c000000004F4118C600000000000006A9
-t1329666246
-s1705
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTScatterPlot.h
-c000000004F4118C60000000000000DF6
-t1329666246
-s3574
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTShadow.h
-c000000004F4118C60000000000000245
-t1329666246
-s581
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTTextLayer.h
-c000000004F4118C60000000000000247
-t1329666246
-s583
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTTextStyle.h
-c000000004F4118C600000000000004BD
-t1329666246
-s1213
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTTheme.h
-c000000004F4118C70000000000000477
-t1329666247
-s1143
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTTimeFormatter.h
-c000000004F4118C70000000000000199
-t1329666247
-s409
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTTradingRangePlot.h
-c000000004F4118C70000000000000892
-t1329666247
-s2194
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTUtilities.h
-c000000004F4118C70000000000000E24
-t1329666247
-s3620
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTXYAxis.h
-c000000004F4118C80000000000000183
-t1329666248
-s387
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTXYAxisSet.h
-c000000004F4118C800000000000000F1
-t1329666248
-s241
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTXYGraph.h
-c000000004F4118C80000000000000157
-t1329666248
-s343
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source/CPTXYPlotSpace.h
-c000000004F4118C800000000000002D3
-t1329666248
-s723
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/iPhoneOnly/CPTGraphHostingView.h
-c000000004F4118BB00000000000001B4
-t1329666235
-s436
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/iPhoneOnly/CPTPlatformSpecificCategories.h
-c000000004F4118BB00000000000003AD
-t1329666235
-s941
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/iPhoneOnly/CPTPlatformSpecificDefines.h
-c000000004F4118BB000000000000005B
-t1329666235
-s91
-
-N/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/iPhoneOnly/CPTPlatformSpecificFunctions.h
-c000000004F4118BC0000000000000161
-t1329666236
-s353
-
-N/var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-aqwfeuxtsxuiuobmwofnmcjvsntw/AAPLot_Prefix.pch.pth
-t1335814160
-s4066900
-
-N/var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-biodcpqmmepsekdvnmappqrpujfe/AAPLot_Prefix.pch.pth
-t1335814231
-s4066900
-
-N/var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-cpifamseywmzvmayihrjbpoalyqx/AAPLot_Prefix.pch.pth
-t1335812078
-s4066900
-
-N/var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-gaspopsgmzvjhcbnlpesammlrcyi/AAPLot_Prefix.pch.pth
-t1335812226
-s4066900
-
-NInfo.plist
-c000000004B6DEBA70000000000000383
-t1265494951
-s899
-
-CBuild AST from /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/APFinancialData.m
-r0
-
-CBuild AST from /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/APYahooDataPuller.m
-r0
-
-CBuild AST from /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/AAPLotAppDelegate.m
-r0
-
-CBuild AST from /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/FlipsideView.m
-r0
-
-CBuild AST from /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/FlipsideViewController.m
-r0
-
-CBuild AST from /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/MainViewController.m
-r0
-
-CBuild AST from /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/RootViewController.m
-r0
-
-CBuild AST from /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/NSDateFormatterExtensions.m
-r0
-
-CBuild AST from /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1bbc6333224fb541^d97a7e33224fb541^---0#1#0#--18"Check dependencies36"18F70E7D-AC38-4373-A9A1-B7933A4440C5-
-
-CCompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/AAPLotAppDelegate.o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/AAPLotAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s357507635.538092
-e357507635.674188
-r1
-xCompileC
-x../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/AAPLotAppDelegate.o
-x/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/AAPLotAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/AAPLotAppDelegate.mb4918b33224fb541^e2acac33224fb541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/AAPLotAppDelegate.m0000000000000000^3804"CompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/AAPLotAppDelegate.o Classes/AAPLotAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-generated-files.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-project-headers.hmap -iquote../../framework -iquote../../framework/iPhoneOnly -iquote../../framework/MacOnly -iquote../../framework/Source -iquote../../framework/TestResources -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/include -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources/i386 -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources -F/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator -include /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-cpifamseywmzvmayihrjbpoalyqx/AAPLot_Prefix.pch -MMD -MT dependencies -MF /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/AAPLotAppDelegate.d --serialize-diagnostics /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/AAPLotAppDelegate.dia -c /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/AAPLotAppDelegate.m -o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/AAPLotAppDelegate.o36"26C0897D-0705-425F-AF43-5D60E9D83DEE-
-
-CCompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/APFinancialData.o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/APFinancialData.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s357507635.544978
-e357507635.613588
-r1
-xCompileC
-x../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/APFinancialData.o
-x/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/APFinancialData.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/APFinancialData.me3898c33224fb541^dc639d33224fb541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/APFinancialData.m0000000000000000^3776"CompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/APFinancialData.o APFinancialData.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-generated-files.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-project-headers.hmap -iquote../../framework -iquote../../framework/iPhoneOnly -iquote../../framework/MacOnly -iquote../../framework/Source -iquote../../framework/TestResources -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/include -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources/i386 -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources -F/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator -include /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-cpifamseywmzvmayihrjbpoalyqx/AAPLot_Prefix.pch -MMD -MT dependencies -MF /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/APFinancialData.d --serialize-diagnostics /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/APFinancialData.dia -c /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/APFinancialData.m -o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/APFinancialData.o36"23E6D229-2F11-4859-A9BB-5BC556330E8C-
-
-CCompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/APYahooDataPuller.o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/APYahooDataPuller.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s357507635.544968
-e357507635.697355
-r1
-xCompileC
-x../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/APYahooDataPuller.o
-x/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/APYahooDataPuller.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/APYahooDataPuller.mb5888c33224fb541^7898b233224fb541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/APYahooDataPuller.m0000000000000000^3788"CompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/APYahooDataPuller.o APYahooDataPuller.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-generated-files.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-project-headers.hmap -iquote../../framework -iquote../../framework/iPhoneOnly -iquote../../framework/MacOnly -iquote../../framework/Source -iquote../../framework/TestResources -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/include -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources/i386 -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources -F/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator -include /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-cpifamseywmzvmayihrjbpoalyqx/AAPLot_Prefix.pch -MMD -MT dependencies -MF /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/APYahooDataPuller.d --serialize-diagnostics /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/APYahooDataPuller.dia -c /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/APYahooDataPuller.m -o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/APYahooDataPuller.o36"3C0F3C7B-9D63-4640-A076-D777DC8F7458-
-
-CCompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/FlipsideView.o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/FlipsideView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s357507635.538052
-e357507635.654043
-r1
-xCompileC
-x../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/FlipsideView.o
-x/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/FlipsideView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/FlipsideView.m588f8b33224fb541^9a78a733224fb541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/FlipsideView.m0000000000000000^3774"CompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/FlipsideView.o Classes/FlipsideView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-generated-files.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-project-headers.hmap -iquote../../framework -iquote../../framework/iPhoneOnly -iquote../../framework/MacOnly -iquote../../framework/Source -iquote../../framework/TestResources -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/include -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources/i386 -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources -F/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator -include /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-cpifamseywmzvmayihrjbpoalyqx/AAPLot_Prefix.pch -MMD -MT dependencies -MF /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/FlipsideView.d --serialize-diagnostics /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/FlipsideView.dia -c /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/FlipsideView.m -o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/FlipsideView.o36"523B0CCE-8E7C-4EC1-842F-A688130506A8-
-
-CCompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/FlipsideViewController.o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s357507635.538128
-e357507635.654097
-r1
-xCompileC
-x../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/FlipsideViewController.o
-x/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/FlipsideViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/FlipsideViewController.m198e8b33224fb541^f17fa733224fb541^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/FlipsideViewController.m0000000000000000^3834"CompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/FlipsideViewController.o Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-generated-files.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-project-headers.hmap -iquote../../framework -iquote../../framework/iPhoneOnly -iquote../../framework/MacOnly -iquote../../framework/Source -iquote../../framework/TestResources -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/include -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources/i386 -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources -F/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator -include /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-cpifamseywmzvmayihrjbpoalyqx/AAPLot_Prefix.pch -MMD -MT dependencies -MF /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/FlipsideViewController.d --serialize-diagnostics /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/FlipsideViewController.dia -c /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/FlipsideViewController.m -o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/FlipsideViewController.o36"71BF36D2-247D-4F94-A6E4-747D37E7FA64-
-
-CCompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/MainViewController.o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s357507635.538100
-e357507635.733938
-r1
-xCompileC
-x../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/MainViewController.o
-x/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/MainViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/MainViewController.m40a08b33224fb541^b5e2bb33224fb541^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/MainViewController.m0000000000000000^3810"CompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/MainViewController.o Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-generated-files.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-project-headers.hmap -iquote../../framework -iquote../../framework/iPhoneOnly -iquote../../framework/MacOnly -iquote../../framework/Source -iquote../../framework/TestResources -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/include -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources/i386 -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources -F/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator -include /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-cpifamseywmzvmayihrjbpoalyqx/AAPLot_Prefix.pch -MMD -MT dependencies -MF /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/MainViewController.dia -c /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/MainViewController.m -o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/MainViewController.o36"5C88AF56-94BC-4D10-A34B-6033B4612B8D-
-
-CCompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/NSDateFormatterExtensions.o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/NSDateFormatterExtensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s357507635.624325
-e357507635.696608
-r1
-xCompileC
-x../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/NSDateFormatterExtensions.o
-x/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/NSDateFormatterExtensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/NSDateFormatterExtensions.mf778a533224fb541^b473b233224fb541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/NSDateFormatterExtensions.m0000000000000000^3836"CompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/NSDateFormatterExtensions.o NSDateFormatterExtensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-generated-files.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-project-headers.hmap -iquote../../framework -iquote../../framework/iPhoneOnly -iquote../../framework/MacOnly -iquote../../framework/Source -iquote../../framework/TestResources -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/include -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources/i386 -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources -F/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator -include /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-cpifamseywmzvmayihrjbpoalyqx/AAPLot_Prefix.pch -MMD -MT dependencies -MF /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/NSDateFormatterExtensions.d --serialize-diagnostics /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/NSDateFormatterExtensions.dia -c /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/NSDateFormatterExtensions.m -o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/NSDateFormatterExtensions.o36"47E3B883-4858-4DAD-9F9F-3C5549FBF39C-
-
-CCompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/RootViewController.o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s357507635.538109
-e357507635.702003
-r1
-xCompileC
-x../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/RootViewController.o
-x/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/RootViewController.mda8c8b33224fb541^67b6b333224fb541^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/RootViewController.m0000000000000000^3810"CompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/RootViewController.o Classes/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-generated-files.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-project-headers.hmap -iquote../../framework -iquote../../framework/iPhoneOnly -iquote../../framework/MacOnly -iquote../../framework/Source -iquote../../framework/TestResources -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/include -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources/i386 -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources -F/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator -include /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-cpifamseywmzvmayihrjbpoalyqx/AAPLot_Prefix.pch -MMD -MT dependencies -MF /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/RootViewController.d --serialize-diagnostics /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/RootViewController.dia -c /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/RootViewController.m -o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/RootViewController.o36"E3D0C6C5-3AE9-4B2E-898C-19D871800A47-
-
-CCompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/main.o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s357507635.537830
-e357507635.609895
-r1
-xCompileC
-x../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/main.o
-x/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/main.m3a968b33224fb541^26399c33224fb541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/main.m0000000000000000^3710"CompileC ../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/main.o main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-generated-files.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-project-headers.hmap -iquote../../framework -iquote../../framework/iPhoneOnly -iquote../../framework/MacOnly -iquote../../framework/Source -iquote../../framework/TestResources -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/include -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources/i386 -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources -F/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator -include /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-cpifamseywmzvmayihrjbpoalyqx/AAPLot_Prefix.pch -MMD -MT dependencies -MF /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/main.dia -c /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/main.m -o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/main.o36"96E92570-BA6E-44DD-9256-1371C3373AA8-
-
-CCompileXIB /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/../MainWindow.xib
-s357505025.203596
-e357505026.051420
-r1
-xCompileXIB
-x/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/../MainWindow.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compiling /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/../MainWindow.xibc2303401184fb541^61360d02184fb541^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/../MainWindow.xib0000000000000000^916"CompileXIB Classes/../MainWindow.xib    cd /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/MainWindow.nib /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Classes/../MainWindow.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"B31897E9-C2E5-485D-BF5C-7108D23E1E68-
-
-CCompileXIB /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/FlipsideView.xib
-s357505025.202451
-e357505025.983297
-r1
-xCompileXIB
-x/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/FlipsideView.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compiling /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/FlipsideView.xib29253401184fb541^9fc8fb01184fb541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/FlipsideView.xib0000000000000000^900"CompileXIB FlipsideView.xib    cd /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/FlipsideView.nib /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/FlipsideView.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"0F28923B-B74C-47A7-8E6C-25447B0A2A7B-
-
-CCompileXIB /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/MainView.xib
-s357505025.203348
-e357505025.983577
-r1
-xCompileXIB
-x/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/MainView.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compiling /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/MainView.xibca1b3401184fb541^56d5fb01184fb541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/MainView.xib0000000000000000^888"CompileXIB MainView.xib    cd /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/MainView.nib /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/MainView.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"17A7D20E-5143-4BEE-BBB6-00E823D14B1D-
-
-CCopyPlistFile /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/AAPL.plist AAPL.plist
-s357505025.203651
-e357505025.235258
-r1
-xCopyPlistFile
-x/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/AAPL.plist
-xAAPL.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection15"Copy AAPL.plistdb323401184fb541^1d3b3c01184fb541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/AAPL.plist0000000000000000^519"CopyPlistFile ../../build/Debug-iphonesimulator/AAPLot.app/AAPL.plist AAPL.plist    cd /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app -- AAPL.plist36"B7ADE503-B7E5-473A-B6A0-BE625A27AF20-
-
-CGenerateDSYMFile /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app.dSYM /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/AAPLot
-s357507635.775316
-e357507635.803322
-r0
-xGenerateDSYMFile
-x/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app.dSYM
-x/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/AAPLot
-oerror: unable to open executable '/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/AAPLot'
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Generating /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app.dSYM33c2c733224fb541^2ae1cd33224fb541^-151"error: unable to open executable '/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/AAPLot'1(21%IDEActivityLogMessage2@150"error: unable to open executable '/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/AAPLot'-357507635#18446744073709551615#0#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#0#0#-19%DVTDocumentLocation4@129"file://localhost/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app.dSYM000000000080d041^727"GenerateDSYMFile ../../build/Debug-iphonesimulator/AAPLot.app.dSYM ../../build/Debug-iphonesimulator/AAPLot.app/AAPLot    cd /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/dsymutil /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/AAPLot -o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app.dSYM36"90C357F2-C4B7-45DE-ABA4-487528199FAD-
-
-CLd /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/AAPLot normal i386
-s357507635.740682
-e357507635.769098
-r0
-xLd
-x/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/AAPLot
-xnormal
-xi386
-oclang: error: no such file or directory: '/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/build/Debug-iphonesimulator/libCorePlot-CocoaTouch.a'
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Link /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/AAPLotcff4be33224fb541^130ec533224fb541^-144"clang: error: no such file or directory: '/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/build/Debug-iphonesimulator/libCorePlot-CocoaTouch.a'1(21%IDEActivityLogMessage2@129"No such file or directory: '/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/build/Debug-iphonesimulator/libCorePlot-CocoaTouch.a'-357507635#0#144#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--0#0#0#--1437"Ld ../../build/Debug-iphonesimulator/AAPLot.app/AAPLot normal i386    cd /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator -F/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator -filelist /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/Objects-normal/i386/AAPLot.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -ObjC -all_load -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -framework Foundation -framework UIKit -framework CoreGraphics /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/build/Debug-iphonesimulator/libCorePlot-CocoaTouch.a -framework QuartzCore -o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/AAPLot36"F4FC1811-BC51-4B88-B312-9FBA0EAADE49-
-
-CProcessInfoPlistFile /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/Info.plist Info.plist
-s357505025.186871
-e357505025.189810
-r1
-xProcessInfoPlistFile
-x/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/Info.plist
-xInfo.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plistbfef2f01184fb541^ab963001184fb541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/Info.plist0000000000000000^708"ProcessInfoPlistFile ../../build/Debug-iphonesimulator/AAPLot.app/Info.plist Info.plist    cd /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app/Info.plist36"E55FBFCD-FF82-4103-91F4-76161FD353B2-
-
-CProcessPCH /Users/sgonyea/Library/Developer/Xcode/DerivedData/AAPLot-hgmlwzsufjbpmzebuxwbztzycrml/Index/PrecompiledHeaders/AAPLot_Prefix-aiuacpfwyshpcyacvmazznhpdlbe_ast/AAPLot_Prefix.pch.pth AAPLot_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/sgonyea/Library/Developer/Xcode/DerivedData/AAPLot-hgmlwzsufjbpmzebuxwbztzycrml/Index/PrecompiledHeaders/AAPLot_Prefix-ambeubopoukkorhhxwaleagosfkw_ast/AAPLot_Prefix.pch.pth AAPLot_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/sgonyea/Library/Developer/Xcode/DerivedData/AAPLot-hgmlwzsufjbpmzebuxwbztzycrml/Index/PrecompiledHeaders/AAPLot_Prefix-bkddwjjsmoviuubahtjbitqospwm_ast/AAPLot_Prefix.pch.pth AAPLot_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/sgonyea/Library/Developer/Xcode/DerivedData/AAPLot-hgmlwzsufjbpmzebuxwbztzycrml/Index/PrecompiledHeaders/AAPLot_Prefix-fwjdjujygjfdydccttlyjlafhmsr_ast/AAPLot_Prefix.pch.pth AAPLot_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-aqwfeuxtsxuiuobmwofnmcjvsntw/AAPLot_Prefix.pch.pth AAPLot_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s357506960.351135
-e357506960.584777
-r1
-xProcessPCH
-x/var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-aqwfeuxtsxuiuobmwofnmcjvsntw/AAPLot_Prefix.pch.pth
-xAAPLot_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile AAPLot_Prefix.pch5dfc59901f4fb541^78b495901f4fb541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/AAPLot_Prefix.pch0000000000000000^3535"ProcessPCH /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-aqwfeuxtsxuiuobmwofnmcjvsntw/AAPLot_Prefix.pch.pth AAPLot_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-generated-files.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-project-headers.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/include -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources/i386 -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources -F/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator --serialize-diagnostics /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-aqwfeuxtsxuiuobmwofnmcjvsntw/AAPLot_Prefix.pch.dia -c /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/AAPLot_Prefix.pch -o /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-aqwfeuxtsxuiuobmwofnmcjvsntw/AAPLot_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-aqwfeuxtsxuiuobmwofnmcjvsntw/AAPLot_Prefix.pch.d36"7630269C-130D-4DEC-8C42-07B8ACF12A5F-
-
-CProcessPCH /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-biodcpqmmepsekdvnmappqrpujfe/AAPLot_Prefix.pch.pth AAPLot_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s357507031.265764
-e357507031.535736
-r1
-xProcessPCH
-x/var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-biodcpqmmepsekdvnmappqrpujfe/AAPLot_Prefix.pch.pth
-xAAPLot_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile AAPLot_Prefix.pchaf2144d71f4fb541^e52789d71f4fb541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/AAPLot_Prefix.pch0000000000000000^3875"ProcessPCH /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-biodcpqmmepsekdvnmappqrpujfe/AAPLot_Prefix.pch.pth AAPLot_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-generated-files.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-project-headers.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/include -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/iPhoneOnly -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/MacOnly -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/Source -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/framework/TestResources -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources/i386 -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources -F/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator --serialize-diagnostics /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-biodcpqmmepsekdvnmappqrpujfe/AAPLot_Prefix.pch.dia -c /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/AAPLot_Prefix.pch -o /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-biodcpqmmepsekdvnmappqrpujfe/AAPLot_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-biodcpqmmepsekdvnmappqrpujfe/AAPLot_Prefix.pch.d36"6BDB26F9-6B29-496C-BA4C-84C435535A9F-
-
-CProcessPCH /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-cpifamseywmzvmayihrjbpoalyqx/AAPLot_Prefix.pch.pth AAPLot_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-gaspopsgmzvjhcbnlpesammlrcyi/AAPLot_Prefix.pch.pth AAPLot_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s357505026.058956
-e357505026.302795
-r1
-xProcessPCH
-x/var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-gaspopsgmzvjhcbnlpesammlrcyi/AAPLot_Prefix.pch.pth
-xAAPLot_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile AAPLot_Prefix.pch6c3d0f02184fb541^72c54d02184fb541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/AAPLot_Prefix.pch0000000000000000^3626"ProcessPCH /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-gaspopsgmzvjhcbnlpesammlrcyi/AAPLot_Prefix.pch.pth AAPLot_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-generated-files.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-own-target-headers.hmap -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-all-target-headers.hmap -iquote /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/AAPLot-project-headers.hmap "-iquote/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../framework/*" -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/include -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources/i386 -I/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/AAPLot.build/Debug-iphonesimulator/AAPLot.build/DerivedSources -F/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator --serialize-diagnostics /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-gaspopsgmzvjhcbnlpesammlrcyi/AAPLot_Prefix.pch.dia -c /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/AAPLot_Prefix.pch -o /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-gaspopsgmzvjhcbnlpesammlrcyi/AAPLot_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/by/fg3rjr81191fr_c4yt6rfvk1gsswg2/C/com.apple.Xcode.1604121058/SharedPrecompiledHeaders/AAPLot_Prefix-gaspopsgmzvjhcbnlpesammlrcyi/AAPLot_Prefix.pch.d36"644C38C4-4468-488D-90CE-17A992D1AA6F-
-
-CTouch /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app
-s357507635.815104
-e357507635.834065
-r1
-xTouch
-x/Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Touch /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.appab5fd133224fb541^e085d533224fb541^---0#0#0#--448"Touch ../../build/Debug-iphonesimulator/AAPLot.app    cd /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/sgonyea/Sites/Stockz/CorePlot_1.0/Source/examples/AAPLot/../../build/Debug-iphonesimulator/AAPLot.app36"CC2DA0C2-8EA8-4828-9A3C-A6C20BB5DB15-
-
