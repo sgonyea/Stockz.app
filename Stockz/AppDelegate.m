@@ -22,7 +22,7 @@
   MainViewController *controller = (MainViewController *)self.window.rootViewController;
   controller.managedObjectContext = self.managedObjectContext;
 
-  controller.stockTableView.layer.cornerRadius = 15;
+  controller.stockTableView.layer.cornerRadius = 12;
 
   StockSymbolDataController *aDataController = [[StockSymbolDataController alloc] init];
   controller.dataController = aDataController;
