@@ -16,6 +16,8 @@
 
 @synthesize delegate        = _delegate;
 @synthesize dataController  = _dataController;
+@synthesize searchTable     = _searchTable;
+@synthesize searchBar       = _searchBar;
 
 - (void)setDataController:(StockSymbolDataController *) newDataController {
   if (_dataController != newDataController) {

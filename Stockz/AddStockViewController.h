@@ -15,9 +15,12 @@
 - (void)addStockViewControllerDidFinish:(AddStockViewController *)controller;
 @end
 
-@interface AddStockViewController : UIViewController
+@interface AddStockViewController : UIViewController <UISearchBarDelegate, UITableViewDelegate>
 
 @property (weak, nonatomic) id <AddStockViewControllerDelegate> delegate;
 @property (strong, nonatomic) StockSymbolDataController *dataController;
+
+@property (weak, nonatomic) IBOutlet UITableView *searchTable;
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 
 @end
